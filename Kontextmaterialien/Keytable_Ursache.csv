@@ -1,0 +1,178 @@
+﻿Ursache_id,Ursache,Ursachenebene,Ursache_id_Stamm
+1000,Alle Ursachen,0,1000
+2000,"Übertragbare, maternale, neonatale und ernährungsbedingte Erkrankungen",1,1000
+2001,HIV/AIDS und sexuell übertragbare Erkrankungen,2,2000
+2002,HIV/AIDS,3,2001
+2007,Sexuell übertragbare Krankheiten ohne HIV,3,2001
+2014,Atemwegsinfektionen,2,2000
+2015,Tuberkulose,3,2014
+2020,Untere Atemwegsinfektionen,3,2014
+2027,Obere Atemwegsinfektionen,3,2014
+2028,Otitis media,3,2014
+2029,Enterale Infektionen,2,2000
+2030,Durchfallerkrankungen,3,2029
+2046,Typhus und Paratyphus,3,2029
+2049,Invasive nicht-typhoide Salmonellen (iNTS),3,2029
+2051,Andere intestinale Infektionskrankheiten,3,2029
+2052,Vernachlässigte Tropenkrankheiten und Malaria,2,2000
+2053,Malaria,3,2052
+2057,Chagas-Krankheit,3,2052
+2062,Schistosomiasis,3,2052
+2064,Zystische Echinokokkose,3,2052
+2080,Andere vernachlässigte Tropenkrankheiten,3,2052
+2081,Andere Infektionskrankheiten,2,2000
+2082,Meningitis,3,2081
+2088,Enzephalitis,3,2081
+2090,Keuchhusten,3,2081
+2092,Masern,3,2081
+2093,Varizellen und Herpes Zoster,3,2081
+2094,Röteln,3,2081
+2096,Akute Hepatitis,3,2081
+2103,Sonstige nicht näher bezeichnete Infektionskrankheiten,3,2081
+2105,Maternale und neonatale Störungen,2,2000
+2106,Maternale Krankheiten,3,2105
+2121,Neonatale Krankheiten,3,2105
+2128,Mangelernährung,2,2000
+2129,Protein-Energie-Mangelernährung,3,2128
+2132,Diätischer Eisenmangel,3,2128
+2133,Andere Mangelernährung,3,2128
+3000,Nicht-übertragbare Erkrankungen,1,1000
+3001,Krebserkrankungen,2,3000
+3002,Lippen- und Mundhöhlenkrebs,3,3001
+3003,Nasenrachenkrebs,3,3001
+3004,Anderer Rachenkrebs,3,3001
+3005,Ösophaguskrebs,3,3001
+3006,Magenkrebs,3,3001
+3007,Kolon- und Rektumkrebs,3,3001
+3008,Leberkrebs,3,3001
+3015,Gallenblasen- und Gallengangkrebs,3,3001
+3016,Pankreaskrebs,3,3001
+3017,Kehlkopfkrebs,3,3001
+3018,"Trachea-, Bronchial- und Lungenkrebs",3,3001
+3019,Malignes Hautmelanom,3,3001
+3020,Heller Hautkrebs,3,3001
+3023,Weichteilgewebe und andere extraossäre Sarkome,3,3001
+3024,Knochenkrebs,3,3001
+3025,Brustkrebs,3,3001
+3026,Zervixkrebs,3,3001
+3027,Uteruskrebs,3,3001
+3028,Ovarialkrebs,3,3001
+3029,Prostatakrebs,3,3001
+3030,Hodenkrebs,3,3001
+3031,Nierenkrebs,3,3001
+3032,Blasenkrebs,3,3001
+3033,Gehirn- und Zentralnervenkrebs,3,3001
+3034,Augenkrebs,3,3001
+3037,Neuroblastom und anderer Nervenzellenkrebs,3,3001
+3038,Schilddrüsenkrebs,3,3001
+3039,Mesotheliom,3,3001
+3040,Hodgkin-Lymphom,3,3001
+3041,Non-Hodgkin-Lymphom,3,3001
+3044,Multiples Myelom,3,3001
+3045,Leukämie,3,3001
+3051,Andere maligne Neoplasien,3,3001
+3052,Andere nicht-maligne Neoplasien,3,3001
+3058,Kardiovaskuläre Erkrankungen,2,3000
+3059,Rheumatische Herzerkrankung,3,3058
+3060,Koronare Herzkrankheit,3,3058
+3064,Schlaganfall,3,3058
+3065,Ischämischer Schlaganfall,4,3064
+3066,Intrazerebrale Blutung,4,3064
+3067,Subarachnoidalblutung,4,3064
+3068,Hypertensive Herzkrankheit,3,3058
+3069,Nicht-rheumatische Herzklappenerkrankung,3,3058
+3073,Kardiomyopathie und Myokarditis,3,3058
+3077,Primäre pulmonale arterielle Hypertonie,3,3058
+3078,Vorhofflimmern und -flattern,3,3058
+3079,Aortenaneurysma,3,3058
+3080,Periphere arterielle Erkrankung,3,3058
+3081,Endokarditis,3,3058
+3084,Andere kardiovaskuläre und vaskuläre Erkrankungen,3,3058
+3085,Chronische Atemwegserkrankungen,2,3000
+3086,Chronische obstruktive Lungenerkrankung,3,3085
+3087,Pneumokoniose,3,3085
+3092,Asthma,3,3085
+3093,Interstitielle Lungenerkrankung und Sarkoidose der Lunge,3,3085
+3097,Andere chronische Atemwegserkrankungen,3,3085
+3098,Verdauungserkrankungen,2,3000
+3099,Chronische Lebererkrankungen,3,3098
+3105,Erkrankungen des oberen Verdauungssystems,3,3098
+3109,Appendizitis,3,3098
+3110,Paralytischer Ileus und intestinale Obstruktion,3,3098
+3111,"Inguinale, femorale und abdominale Hernie",3,3098
+3112,Entzündliche Darmerkrankung,3,3098
+3113,Vaskuläre Darmerkrankungen,3,3098
+3114,Gallenblasen- und Gallenkrankheiten,3,3098
+3115,Pankreatitis,3,3098
+3121,Andere Verdauungserkrankungen,3,3098
+3122,Neurologische Störungen,2,3000
+3123,Alzheimer- und andere Demenzerkrankungen,3,3122
+3124,Parkinson-Krankheit,3,3122
+3125,Epilepsie,3,3122
+3126,Multiple Sklerose,3,3122
+3127,Motoneuronkrankheit,3,3122
+3128,Kopfschmerzerkrankungen,3,3122
+3129,Migräne,4,3128
+3133,Spannungskopfschmerz,4,3128
+3136,Andere neurologische Störungen,3,3122
+3143,Psychische Störungen,2,3000
+3145,Depressive Störungen,3,3143
+3146,Majore Depression,4,3145
+3147,Dysthymie,4,3145
+3149,Angststörungen,3,3143
+3150,Essstörungen,3,3143
+3162,"Alkohol, Drogen und andere Substanzen",2,3000
+3163,Alkoholbezogene Störungen,3,3162
+3164,Drogenkonsum,3,3162
+3170,Diabetes und Nierenerkrankungen,2,3000
+3171,Diabetes mellitus,3,3170
+3172,Diabetes mellitus Typ 1,4,3171
+3173,Diabetes mellitus Typ 2,4,3171
+3174,Chronische Nierenerkrankung,3,3170
+3180,Akute Glomerulonephritis,3,3170
+3181,Haut- und Unterhautkrankheiten,2,3000
+3187,Bakterielle Hautkrankheiten,3,3181
+3190,Krätze,3,3181
+3197,Dekubitusgeschwür,3,3181
+3200,Andere Haut- und Unterhautkrankheiten,3,3181
+3201,Krankheiten der Sinnesorgane,2,3000
+3213,Andere Krankheiten der Sinnesorgane,3,3201
+3214,Muskel-Skelett-Erkrankungen,2,3000
+3215,Rheumatoide Arthritis,3,3214
+3221,Schmerzen im unteren Rücken,3,3214
+3224,Nackenschmerz,3,3214
+3232,Andere Störungen des Muskel-Skelett-Systems,3,3214
+3233,Andere nicht übertragbare Krankheiten,2,3000
+3234,Kongenitale Anomalien,3,3233
+3246,Harnwegserkrankungen und männliche Unfruchtbarkeit,3,3233
+3255,Gynäkologische Erkrankungen,3,3233
+3266,Hämoglobinopathien und hämatytische Anämien,3,3233
+3275,"Endokrine, metabolische, Blut- und Immunstörungen",3,3233
+3289,Plötzlicher Kindstod,3,3233
+4000,Verletzungen,1,1000
+4001,Verkehrsunfälle,2,4000
+4002,Straßenverkehrsunfälle,3,4001
+4003,"Straßenverkehrsunfall, Fußgänger",4,4002
+4004,"Straßenverkehrsunfall, Radfahrer",4,4002
+4005,"Straßenverkehrsunfall, Motorradfahrer",4,4002
+4006,"Straßenverkehrsunfall, Kraftfahrzeuginsasse",4,4002
+4007,Anderer Straßenverkehrsunfall,4,4002
+4008,Andere Verkehrsunfälle,3,4001
+4009,Unbeabsichtigte Verletzungen,2,4000
+4010,Stürze,3,4009
+4011,Ertrinken,3,4009
+4012,"Feuer, Hitze und heiße Stoffe",3,4009
+4013,Vergiftungen,3,4009
+4017,Exposition gegenüber mechanischen Kräften,3,4009
+4020,Nebenwirkungen einer medizinischen Behandlung,3,4009
+4021,Tierkontakt,3,4009
+4024,Fremdkörper,3,4009
+4029,Hitze- und Kältebelastung,3,4009
+4030,Exposition gegenüber Naturgewalten,3,4009
+4038,Andere unbeabsichtigte Verletzungen,3,4009
+4039,Selbstschädigung und Gewalt,2,4000
+4040,Selbstschädigung,3,4039
+4046,Zwischenmenschliche Gewalt,3,4039
+4051,Konflikte und Terrorismus,3,4039
+4054,Staatliche Gewalt und Polizeikonflikte,3,4039
+9999,Sonstige,1,1000

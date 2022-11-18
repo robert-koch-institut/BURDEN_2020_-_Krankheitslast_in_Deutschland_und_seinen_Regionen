@@ -1,0 +1,114 @@
+﻿Region_id,Region,Regionsebene,Region_id_Stamm
+0,Deutschland,Land,0
+1,Schleswig-Holstein,Bundesland,0
+101,Schleswig-Holstein Mitte,Raumordnungsregion,1
+102,Schleswig-Holstein Nord,Raumordnungsregion,1
+103,Schleswig-Holstein Ost,Raumordnungsregion,1
+104,Schleswig-Holstein Süd,Raumordnungsregion,1
+105,Schleswig-Holstein Süd-West,Raumordnungsregion,1
+2,Hamburg,Bundesland,0
+201,Hamburg,Raumordnungsregion,2
+3,Niedersachsen,Bundesland,0
+301,Braunschweig,Raumordnungsregion,3
+302,Bremen-Umland,Raumordnungsregion,3
+303,Bremerhaven,Raumordnungsregion,3
+304,Emsland,Raumordnungsregion,3
+305,Göttingen,Raumordnungsregion,3
+306,Hamburg-Umland-Süd,Raumordnungsregion,3
+307,Hannover,Raumordnungsregion,3
+308,Hildesheim,Raumordnungsregion,3
+309,Lüneburg,Raumordnungsregion,3
+310,Oldenburg,Raumordnungsregion,3
+311,Osnabrück,Raumordnungsregion,3
+312,Ost-Friesland,Raumordnungsregion,3
+313,Südheide,Raumordnungsregion,3
+4,Bremen,Bundesland,0
+401,Bremen,Raumordnungsregion,4
+5,Nordrhein-Westfalen,Bundesland,0
+501,Aachen,Raumordnungsregion,5
+502,Arnsberg,Raumordnungsregion,5
+503,Bielefeld,Raumordnungsregion,5
+504,Bochum/Hagen,Raumordnungsregion,5
+505,Bonn,Raumordnungsregion,5
+506,Dortmund,Raumordnungsregion,5
+507,Duisburg/Essen,Raumordnungsregion,5
+508,Düsseldorf,Raumordnungsregion,5
+509,Emscher-Lippe,Raumordnungsregion,5
+510,Köln,Raumordnungsregion,5
+511,Münster,Raumordnungsregion,5
+512,Paderborn,Raumordnungsregion,5
+513,Siegen,Raumordnungsregion,5
+6,Hessen,Bundesland,0
+601,Mittelhessen,Raumordnungsregion,6
+602,Nordhessen,Raumordnungsregion,6
+603,Osthessen,Raumordnungsregion,6
+604,Rhein-Main,Raumordnungsregion,6
+605,Starkenburg,Raumordnungsregion,6
+7,Rheinland-Pfalz,Bundesland,0
+701,Mittelrhein-Westerwald,Raumordnungsregion,7
+702,Rheinhessen-Nahe,Raumordnungsregion,7
+703,Rheinpfalz,Raumordnungsregion,7
+704,Trier,Raumordnungsregion,7
+705,Westpfalz,Raumordnungsregion,7
+8,Baden-Württemberg,Bundesland,0
+801,Bodensee-Oberschwaben,Raumordnungsregion,8
+802,Donau-Iller (BW),Raumordnungsregion,8
+803,Franken,Raumordnungsregion,8
+804,Hochrhein-Bodensee,Raumordnungsregion,8
+805,Mittlerer Oberrhein,Raumordnungsregion,8
+806,Neckar-Alb,Raumordnungsregion,8
+807,Nordschwarzwald,Raumordnungsregion,8
+808,Ostwürttemberg,Raumordnungsregion,8
+809,Schwarzwald-Baar-Heuberg,Raumordnungsregion,8
+810,Stuttgart,Raumordnungsregion,8
+811,Südlicher Oberrhein,Raumordnungsregion,8
+812,Unterer Neckar,Raumordnungsregion,8
+9,Bayern,Bundesland,0
+901,Allgäu,Raumordnungsregion,9
+902,Augsburg,Raumordnungsregion,9
+903,Bayerischer Untermain,Raumordnungsregion,9
+904,Donau-Iller (BY),Raumordnungsregion,9
+905,Donau-Wald,Raumordnungsregion,9
+906,Industrieregion Mittelfranken,Raumordnungsregion,9
+907,Ingolstadt,Raumordnungsregion,9
+908,Landshut,Raumordnungsregion,9
+909,Main-Rhön,Raumordnungsregion,9
+910,München,Raumordnungsregion,9
+911,Oberfranken-Ost,Raumordnungsregion,9
+912,Oberfranken-West,Raumordnungsregion,9
+913,Oberland,Raumordnungsregion,9
+914,Oberpfalz-Nord,Raumordnungsregion,9
+915,Regensburg,Raumordnungsregion,9
+916,Südostoberbayern,Raumordnungsregion,9
+917,Westmittelfranken,Raumordnungsregion,9
+918,Würzburg,Raumordnungsregion,9
+10,Saarland,Bundesland,0
+1001,Saar,Raumordnungsregion,10
+11,Berlin,Bundesland,0
+1101,Berlin,Raumordnungsregion,11
+12,Brandenburg,Bundesland,0
+1201,Havelland-Fläming,Raumordnungsregion,12
+1202,Lausitz-Spreewald,Raumordnungsregion,12
+1203,Oderland-Spree,Raumordnungsregion,12
+1204,Prignitz-Oberhavel,Raumordnungsregion,12
+1205,Uckermark-Barnim,Raumordnungsregion,12
+13,Mecklenburg-Vorpommern,Bundesland,0
+1301,Mecklenburgische Seenplatte,Raumordnungsregion,13
+1302,Mittleres Mecklenburg/Rostock,Raumordnungsregion,13
+1303,Vorpommern,Raumordnungsregion,13
+1304,Westmecklenburg,Raumordnungsregion,13
+14,Sachsen,Bundesland,0
+1401,Oberes Elbtal/Osterzgebirge,Raumordnungsregion,14
+1402,Oberlausitz-Niederschlesien,Raumordnungsregion,14
+1403,Südsachsen,Raumordnungsregion,14
+1404,Westsachsen,Raumordnungsregion,14
+15,Sachsen-Anhalt,Bundesland,0
+1501,Altmark,Raumordnungsregion,15
+1502,Anhalt-Bitterfeld-Wittenberg,Raumordnungsregion,15
+1503,Halle/S.,Raumordnungsregion,15
+1504,Magdeburg,Raumordnungsregion,15
+16,Thüringen,Bundesland,0
+1601,Mittelthüringen,Raumordnungsregion,16
+1602,Nordthüringen,Raumordnungsregion,16
+1603,Ostthüringen,Raumordnungsregion,16
+1604,Südthüringen,Raumordnungsregion,16
