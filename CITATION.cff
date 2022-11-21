@@ -5,57 +5,62 @@ abstract: >-
   Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes „BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen“ auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite www.daly.rki.de visualisiert.
 date-released: '2022-11-18'
 keywords:
-  - Burden of Disease
   - Krankheitslast
-  - Sexuell übertragbare Krankheiten
-  - Sexually Transmitted Diseases
+  - Übertragbare Krankheiten
+  - Nichtübertragbare Krankheiten
+  - Wunden und Verletzungen
   - Atemwegsinfektionen
-  - Respiratory Tract Infections
-  - Enterale Infektionen
-  - Tropenmedizin
-  - Tropical Medicine
-  - Malaria
-  - Angeborene, hereditäre und neonatale Krankheiten und Fehlbildungen
-  - Congenital, Hereditary, and Neonatal Diseases and Abnormalities
-  - Mangelernährung
-  - Malnutrition
   - Krebserkrankung
-  - Cancer
+  - Darmkrebs
+  - Lungenkrebs
+  - Brustkrebs
+  - Prostatakrebs
   - Herz-Kreislauf-Krankheiten
-  - Cardiovascular Diseases
-  - Verdauungssystemkrankheiten
-  - Digestive System Diseases
-  - Neurologische Störungen
-  - Neurological Disorders
-  - Psychische Störungen
-  - Mental Disorders
-  - Alkoholbedingte Störungen
-  - Alcohol-Related Disorders
+  - Koronare Herzkrankheit
+  - Schlaganfall
+  - Hypertensive Herzkrankheit
+  - Chronisch obstruktive Lungenerkrankung
+  - Demenz
+  - Kopfschmerz
   - Substanzbezogenen Störungen
-  - Substance-Related Disorders
+  - Verkehrsunfälle
+  - Depression
   - Diabetes mellitus
-  - Diabetes Mellitus
-  - Nierenkrankheiten
-  - Kidney Diseases
-  - Hautkrankheiten
-  - Skin Diseases
-  - Krankheiten des Bewegungsapparates
-  - Musculoskeletal Diseases
-  - Unfallbedingte Verletzungen
-  - Accidental Injuries
-  - Selbstverletzendes Verhalten
-  - Self-Injurious Behavior
-  - STD
+  - Angststörungen
+  - Kreuzschmerzen
+  - Nackenschmerz
+  - Todesursache 
   - years of life lost
-  - YLL
   - years lived with disability
-  - YLD
   - disability-adjusted life years
-  - DALY
   - Deutschland
+  - COPD
+  - Burden of Disease
+  - Communicable Diseases
+  - Noncommunicable Diseases
+  - Wounds and Injuries
+  - Respiratory Tract Infections
+  - Cancer
+  - Intestinal Neoplasms
+  - Lung Cancer
+  - Breast Tumor
+  - Prostate cancer
+  - Cardiovascular Diseases
+  - Coronary Heart Disease
+  - Stroke
+  - Hypertensive heart disease
+  - Chronic Obstructive Pulmonary Disease
+  - Dementia
+  - Headache
+  - Substance-Related Disorders
+  - Traffic Accidents
+  - Anxiety Disorders
+  - Low Back Pain
+  - Neck Pain
+  - Cause of Death
   - Germany
-  - RKI
   - Open Data
+  - RKI
 message: Cite me!
 licence: CC-BY-4.0
 doi: 10.5281/zenodo.7323766
