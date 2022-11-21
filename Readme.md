@@ -56,7 +56,7 @@ Das Projekt BURDEN 2020 wurde durch den Innovationsfonds beim Gemeinsamen Bundes
 
 Zur Bestimmung der Indikatoren wurden mehrere Primär- und Sekundärdatenquellen genutzt. Hinter den Kernindikatoren YLL, YLD und DALY stehen in BURDEN 2020 komplexe Modellierungen: So wurden nichtinformative Todesursachen umverteilt, um allen Verstorbenen im Rahmen der Krankheitslastberechnung gültige Todesursachen zuzuweisen. Es wurden regionale Prävalenzen geschätzt und alters- sowie morbiditätsadjustiert für die Gesamtbevölkerung hochgerechnet. In die Berechnungen gehen spezifische Schweregradverteilungen und Erkrankungsdauern ein, um die Krankheitslast durch Morbidität in der Bevölkerung quantifizieren zu können. Die Ergebnisse wurden für Multimorbidität adjustiert und ein Konzept entwickelt, um die statistische Unsicherheit aus verschiedenen Quellen abzubilden. Detaillierte Informationen dazu wurden aus dem Projekt heraus bereits an anderer Stelle publiziert und im Folgenden themenspezifisch darauf verwiesen.
 
-### Krankheitslast durch Mortalität - `YLL`  
+### Krankheitslast durch Mortalität - YLL   
 
 Das Akronym YLL steht für "years of life lost" und repräsentiert die Mortalitätskomponente der Krankheitslast, also die Krankheitslast durch Versterben. Je höher der errechnete Zahlenwert, desto höher ist die Krankheitslast durch diese Komponente zu bewerten. 
 
@@ -92,7 +92,7 @@ Weitere Literatur:
 > Mikkelsen, L., Iburg, K.M., Adair, T. *et al.* Assessing the quality of cause of death data in six high-income countries: Australia, Canada, Denmark, Germany, Japan and Switzerland. *Int J Public Health* 65, 17–28 (2020). [DOI: 10.1007/s00038-019-01325-x](https://doi.org/10.1007/s00038-019-01325-x) 
 
 
-### Krankheitslast durch Morbidität - `YLD` 
+### Krankheitslast durch Morbidität - YLD  
 
 Das Akronym YLD steht für "years lived with disability" und repräsentiert die Morbiditätskomponente der Krankheitslast, also die Krankheitslast durch Erkrankungen oder Verletzungen. Je höher der errechnete Zahlenwert, desto höher ist die Krankheitslast durch diese Komponente zu bewerten.  
 
@@ -128,7 +128,7 @@ Weitere Literatur:
 > Schüssel et al. 2022: „Nutzung von Krankenkassenroutinedaten zur Bestimmung von Krankheitshäufigkeiten im Projekt BURDEN 2020“ [DOI: 10.1055/a-1806-2115](http://doi.org/10.1055/a-1806-2115)
 
 
-### Summe der Krankheitslast - `DALY`
+### Summe der Krankheitslast - DALY
 
 Das Akronym steht für "disability-adjusted life years" und repräsentiert die Summe der Krankheitslast aus den Einzelkomponenten YLD und YLL. Je höher der Zahlenwert, desto höher ist die Krankheitslast zu bewerten.
 
