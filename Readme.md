@@ -1,20 +1,19 @@
 Datensatzdokumentation
 # Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen  
 
-**[Robert Koch-Institute](https://grid.ac/institutes/grid.13652.33) | RKI**  
+[Robert Koch-Institut](https://rki.de) | RKI  
 Nordufer 20  
 13353 Berlin  
 
 
 **Abteilung 2 | Epidemiologie und Gesundheitsmonitoring**  
-
 Janko Leddin (Datenmanagement)  
 [Michael Porst](https://orcid.org/0000-0002-3894-3122) (Morbiditätsanalysen, Statistik)  
 
 --- 
-**Zitierweise**  
+**Zitieren**  
 
-Robert Koch-Institut (2022): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. [DOI: 10.5281/zenodo.7323766](https://doi.org/10.5281/zenodo.7323766)
+Robert Koch-Institut (2023): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. [DOI: 10.5281/zenodo.7323766](https://doi.org/10.5281/zenodo.7323766)  
 
 ## Einleitung   
 
@@ -79,7 +78,11 @@ Gemäß Sterbetafeln  wird jedem Alter eine statistische Restlebenserwartung zug
 
 Ergebnis- und Methodenpublikation:  
 
-> Wengler et al. 2021: „Years of Life Lost to Death - A comprehensive analysis of mortality in Germany conducted as part of the BURDEN 2020 project“ [DOI: 10.3238/arztebl.m2021.0148](https://doi.org/10.3238/arztebl.m2021.0148)
+> Wengler et al. 2021: „Years of Life Lost to Death - A comprehensive analysis of mortality in Germany conducted as part of the BURDEN 2020 project“ [DOI: 10.3238/arztebl.m2021.0148](https://doi.org/10.3238/arztebl.m2021.0148)  
+
+Zuordnung der ICD-10-Codes zu den mortalitätsspezifischen Krankheitslastursachen:  
+> Johnson et al. Public health utility of cause of death data: applying empirical algorithms to improve data quality. BMC Med Inform Decis Mak 21, 175 (2021). [DOI: s12911-021-01501-1](https://doi.org/s12911-021-01501-1), Additional file 1, Appendix Figure 3
+
 
 Diagnose und Umverteilung nichtinformativer Todesursachen:  
 
@@ -140,30 +143,38 @@ Ergebnisdatensätze zu den Einzelkomponenten YLL und YLD.
 
 Summe aus YLL und YLD nach Alter, Geschlecht, Region und Krankheitslastursache.
 
+### Limitationen des Datensatzes  
+
+Während der Ergebnisdatensatz zur Mortalitätskomponente (YLL) aufgrund seiner Genese für alle Krankheitslastursachen vollständig vorliegt (Wengler et al. 2021), wurde im Rahmen des Pilotprojekts für den Bereich Morbidität (YLD) - und damit für die gesamte Krankheitslast (DALY) - zunächst mit einer Vorauswahl an Krankheitslastursachen auf Ebene 3 gearbeitet (eTabelle 2, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126309)). Eine Berechnung der YLD und DALY auf höheren Ebenen einerseits, und die vollständige Abbildung des Klassifikationssystems der Ursachen andererseits, ist dadurch allerdings bislang noch nicht möglich. In der Bereitstellung der Daten zu den YLD und DALY wird deshalb auf die Ursachenebenen 0-2 verzichtet.  
+Weitere Limitationen ergeben sich für einzelne Krankheitslastursachen im Morbiditätsbereich sowohl hinsichtlich der räumlichen als auch der altersgruppenspezifischen Auflösung der Daten (eTabelle 3, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126311)).
+
+
+
 ## Aufbau und Inhalt des Datensatzes 
 
 Der Datensatz enthält Daten zur Krankheitslast in Deutschland und seinen Regionen des Projekts BURDEN2020. Im Datensatz enthalten sind:
 
-- Ergebnisdaten des Projektes BURDEN 2020 
-- Schlüsseltabellen verwendeter Hierarchiesysteme
-- Lizenzdatei mit der Nutzungslizenz des Datensatzes in Deutsch
-- Datensatzdokumentation in deutscher Sprache
-- Metadaten zur automatisierten Weiterverarbeitung
+- Ergebnisdaten des Projektes BURDEN 2020  
+- Schlüsseltabellen verwendeter Hierarchiesysteme  
+- Lizenzdatei mit der Nutzungslizenz des Datensatzes in Deutsch  
+- Datensatzdokumentation in deutscher Sprache  
+- Metadaten zur automatisierten Weiterverarbeitung  
 
 ### BURDEN 2020 Ergebnisdaten
 
-Die Ergebnisdatentabelle beinhaltet alle berechneten Datenpunkte des Projekts BURDEN 2020 in strukturierter Form. Ein Datenpunkt ist definiert als das Kreuzprodukt aller möglichen Ausprägungen der Variablen: Berichtsjahr, Indikator, Ursache, Region, Geschlecht, Altersgruppe und Einheit. Jede Zeile der Tabelle stellt den Wert im Kontext des Datenpunktes dar. Die Ergebnistabelle enthält keine Leerzeilen (Datenpunkte, die nicht berechnet werden konnten, sind nicht enthalten).
+Die Ergebnisdatentabelle beinhaltet alle berechneten Datenpunkte des Projekts BURDEN 2020 in strukturierter Form. Ein Datenpunkt ist definiert als das Kreuzprodukt aller möglichen Ausprägungen der Variablen: Berichtsjahr, Indikator, Ursache, Region, Geschlecht, Altersgruppe und Einheit. Jede Zeile der Tabelle stellt den Wert im Kontext des Datenpunktes dar. Die Ergebnistabelle enthält keine Leerzeilen (Datenpunkte, die nicht berechnet werden konnten, sind nicht enthalten). Die BURDEN 2020 Ergebnisdaten beziehen sich ausschließlich auf das Berichtsjahr 2017. Weitere Limitationen sind dem entsprechenden Abschnitt dieser Dokumentation zu entnehmen.  
 
-> [BURDEN2020_Ergebnisdaten.csv](/BURDEN2020_Ergebnisdaten.csv)
+> [BURDEN2020_Ergebnisdaten.csv](/BURDEN2020_Ergebnisdaten.csv)  
 
-Insgesamt enthält der Datensatz 2.519.913 berechnete Datenpunkte.
+Insgesamt enthält der Datensatz 2.519.913 berechnete Datenpunkte.  
 
-Die Ausprägungen der beiden Variablen Ursache und Region folgen hierarchischen Gliederungssystematiken, die mit den mitgelieferten Schlüsseltabellen korrespondieren. Jede Schlüsseltabelle bildet ihr jeweiliges zugrundeliegende Hierarchiesystem vollständig ab. Ihr jeweiliger Aufbau wird im entsprechenden Abschnitt dieser Dokumentation nochmal näher erläutert.  Ergebnistabelle und Schlüsseltabellen können bei Bedarf über die entsprechenden ID Variablen zusammengeführt werden.
+Die Ausprägungen der beiden Variablen Ursache und Region folgen hierarchischen Gliederungssystematiken, die mit den mitgelieferten Schlüsseltabellen korrespondieren. Jede Schlüsseltabelle bildet ihr jeweiliges zugrundeliegende Hierarchiesystem vollständig ab. Ihr jeweiliger Aufbau wird im entsprechenden Abschnitt dieser Dokumentation nochmal näher erläutert. Ergebnistabelle und Schlüsseltabellen können bei Bedarf über die entsprechenden ID Variablen zusammengeführt werden.  
 
 Der Datensatz erhebt strukturell keinen Anspruch typischer Normalformen der Datenhaltung.  
 
-#### Variablen und Variablenausprägung
-Das BURDEN 2020 Ergebnisdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
+#### Variablen und Variablenausprägung  
+
+Die BURDEN 2020 Ergebnisdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
 |Name|Typ|Ausprägung|Beschreibung|
 | - | - | - | - |
@@ -194,14 +205,16 @@ Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwen
 
 #### Schlüsseltabelle Krankheitslastursache  
 
-Die Systematik zur hierarchischen Einteilung der Krankheitslastursachen (Ursachen) ist an Vorarbeiten der GBD-Studie angelehnt [[4]](#Referenzen). Die Ursachen ([Ursache]) sind dabei in 5 Ebenen ([Ursachenebene]) untergliedert, wobei 0 die höchste Ebene mit einer einzigen Ausprägung, nämlich „Alle Ursachen“, darstellt. Auf Ebene 1 sind die Ursachen in 3 Hauptgruppen untergliedert, auf den darauf folgenden 3 Ebenen spalten sich die Hauptgruppen weiter auf: 
+Die Systematik zur hierarchischen Einteilung der Krankheitslastursachen (Ursachen) ist an Vorarbeiten der GBD-Studie angelehnt [[4]](#Referenzen). Die Ursachen ([Ursache]) sind dabei in 5 Ebenen ([Ursachenebene]) untergliedert, wobei 0 die höchste (Aggregations-)Ebene mit einer einzigen Ausprägung, nämlich „Alle Ursachen“, darstellt. Auf Ebene 1 sind die Ursachen in 3 Hauptgruppen untergliedert und werden ab Ebene 2 immer feiner aufgespalten:
 
-| Ebene   | Ausprägungen  | 
+
+| Ursachenebene   | Ausprägungen  | 
 | ------  | ------  |  
-| Ebene 1 | `Übertragbare Erkrankungen`<br>`Nicht-übertragbare Erkrankungen`<br>`Verletzungen`| 
-| Ebene 2 | N = 22  |
-| Ebene 3 | N = 136 |
-| Ebene 4 | N = 14  |
+| 0 | Alle Ursachen | 
+| 1 | `Übertragbare Erkrankungen` `Verletzungen` `Nicht-übertragbare Erkrankungen`| 
+| 2 | 22 weitere distinkte Ursachen  |
+| 3 | 136 weitere distinkte Ursachen |
+| 4 | 14 weitere distinkte Ursachen |
 
 Die umfangreichste Ebene ist Ebene 3, die detailreichste ist Ebene 4. Nicht jede Ursache auf Ebene 3 lässt sich auf Ebene 4 weiter ausdifferenzieren. Jede Ursache ist genau einer Ursache auf der nächsthöheren Ebene zugeordnet. Die Zuordnung ist über das Feld [Ursache_id_Stamm] gegeben.
 
@@ -220,20 +233,20 @@ Die Schlüsseltabelle Krankheitslastursache enthält die in der folgenden Tabell
 |Ursachenebene|Num|`0`, `1`, `2`, `3`,`4`|Nummer als Bezeichnung der hierarchischen Ebene (Level), in der die [Ursache] eingeordnet ist.<br>Dabei `0` = höchste Ebene.|
 |Ursache_id_Stamm|Num|`>0`|[Ursache_id] der hierarchisch übergeordneten [Ursache] auf der nächst-höheren [Ursachenebene].|
 
-#### Schlüsseltabelle Region
+#### Schlüsseltabelle Region  
+Die räumliche Dimension ([Region]) ist in 3 Ebenen ([Regionsebene]) untergliedert, wobei `Land` die höchste Ebene darstellt. 
 
-Die räumliche Dimension ([Region]) ist in 3 Ebenen ([Regionsebene]) untergliedert, wobei `Land` die höchste Ebene mit einer einzigen Ausprägung, nämlich `Deutschland`, darstellt.  
+Die einzelnen Ebenen in der Übersicht:
 
-Die folgenden 2 Ebenen spalten sich anzahlmäßig wie folgt auf: 
-
-| Ebene| Ausprägungen| 
+| Regionsebene| Ausprägungen | 
 | - | - |  
-| `Bundesland`   | N = 16 |
-| `Raumordnungsregion` | N = 96 |
+| `Land` | Deutschland | 
+| `Bundesland`   | 16 Bundesländer |
+| `Raumordnungsregion` | 96 Raumordnungsregionen |
 
 Die kleinräumigste Ebene ist `Raumordnungsregion`. Jede Region ist genau einer Region auf der nächsthöheren Ebene zugeordnet. Die Zuordnung ist über das Feld [Region_id_Stamm] gegeben.
 
-Die Felder [Region] und [Regionsebene] sind in der Ergebnistabelle bereits integriert. Eine separate Zuordungen zwischen [Region_id], [Region] und [Regionsebene] befindet sich in der Schlüsseltabelle: 
+Die Felder [Region] und [Regionsebene] sind in der Ergebnistabelle bereits integriert. Eine separate Zuordungen zwischen [Region_id], [Region] und [Regionsebene] befindet sich in der Schlüsseltabelle:
 
 > [Kontextmaterialien/Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv)
 

@@ -15,8 +15,8 @@
 		"type": "Researcher"
 	}],
 	"keywords": ["Krankheitslast", "Übertragbare Krankheiten", "Nichtübertragbare Krankheiten", "Wunden und Verletzungen", "Atemwegsinfektionen", "Krebserkrankung", "Darmkrebs", "Lungenkrebs", "Brustkrebs", "Prostatakrebs", "Herz-Kreislauf-Krankheiten", "Koronare Herzkrankheit", "Schlaganfall", "Hypertensive Herzkrankheit", "Chronisch obstruktive Lungenerkrankung", "Demenz", "Kopfschmerz", "Substanzbezogenen Störungen", "Verkehrsunfälle", "Depression", "Diabetes mellitus", "Angststörungen", "Kreuzschmerzen", "Nackenschmerz", "Todesursache ", "years of life lost", "years lived with disability", "disability-adjusted life years", "Deutschland", "COPD", "Burden of Disease", "Communicable Diseases", "Noncommunicable Diseases", "Wounds and Injuries", "Respiratory Tract Infections", "Cancer", "Intestinal Neoplasms", "Lung Cancer", "Breast Tumor", "Prostate cancer", "Cardiovascular Diseases", "Coronary Heart Disease", "Stroke", "Hypertensive heart disease", "Chronic Obstructive Pulmonary Disease", "Dementia", "Headache", "Substance-Related Disorders", "Traffic Accidents", "Anxiety Disorders", "Low Back Pain", "Neck Pain", "Cause of Death", "Germany", "Open Data", "RKI"],
-	"publication_date": "2022-11-18T14:10:00.932Z",
-	"version": "2022-11-18",
+	"publication_date": "2023-02-16T14:10:00.932Z",
+	"version": "2023-02-16",
 	"upload_type": "dataset",
 	"access_right": "open",
 	"license": "cc-by",
