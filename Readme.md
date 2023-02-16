@@ -13,7 +13,7 @@ Janko Leddin (Datenmanagement)
 --- 
 **Zitieren**  
 
-Robert Koch-Institut (2023): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. [DOI: 10.5281/zenodo.7323766](https://doi.org/10.5281/zenodo.7323766)  
+Robert Koch-Institut (2023): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. [DOI: 10.5281/zenodo.7646704](https://doi.org/10.5281/zenodo.7646704)  
 
 ## Einleitung   
 
