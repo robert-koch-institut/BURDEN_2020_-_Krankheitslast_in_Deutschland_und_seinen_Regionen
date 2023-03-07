@@ -1,0 +1,347 @@
+{
+  "data": {
+    "type": "studyhub_resources",
+    "attributes": {
+      "commit_button": "Submit",
+      "content_blobs": [
+        {
+          "content_type": "text/html",
+          "url": "https://github.com/robert-koch-institut/https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+          "original_filename": "Github Link"
+        }
+      ],
+      "resource": {
+        "resource_type": "Dataset",
+        "resource_type_general": "Dataset",
+        "resource_titles": [
+          {
+            "title": "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen",
+            "title_language": "DE (German)"
+          }
+        ],
+        "resource_acronyms": [],
+        "resource_descriptions": [
+          {
+            "description": "Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite www.daly.rki.de (http://www.daly.rki.de) visualisiert.",
+            "description_language": "DE (German)"
+          }
+        ],
+        "resource_format": "",
+        "resource_keywords": [
+          {
+            "resource_keywords_label": "Krankheitslast",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Übertragbare Krankheiten",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Nichtübertragbare Krankheiten",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Wunden und Verletzungen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Atemwegsinfektionen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Krebserkrankung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Darmkrebs",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Lungenkrebs",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Brustkrebs",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Prostatakrebs",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Herz-Kreislauf-Krankheiten",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Koronare Herzkrankheit",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Schlaganfall",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Hypertensive Herzkrankheit",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Chronisch obstruktive Lungenerkrankung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Demenz",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Kopfschmerz",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Substanzbezogenen Störungen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Verkehrsunfälle",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Depression",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Diabetes mellitus",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Angststörungen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Kreuzschmerzen",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Nackenschmerz",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Todesursache",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "years of life lost",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "years lived with disability",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "disability-adjusted life years",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Deutschland",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "COPD",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Burden of Disease",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Communicable Diseases",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Noncommunicable Diseases",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Wounds and Injuries",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Respiratory Tract Infections",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Cancer",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Intestinal Neoplasms",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Lung Cancer",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Breast Tumor",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Prostate cancer",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Cardiovascular Diseases",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Coronary Heart Disease",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Stroke",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Hypertensive heart disease",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Chronic Obstructive Pulmonary Disease",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Dementia",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Headache",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Substance-Related Disorders",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Traffic Accidents",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Anxiety Disorders",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Low Back Pain",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Neck Pain",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Cause of Death",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Germany",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Open Data",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "RKI",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Gesundheitsberichterstattung",
+            "resource_keywords_label_code": ""
+          },
+          {
+            "resource_keywords_label": "Public health surveillance",
+            "resource_keywords_label_code": ""
+          }
+        ],
+        "resource_language": [
+          "DE (German)"
+        ],
+        "resource_version": "2023-03-07",
+        "resource_web_page": "https://robert-koch-institut.github.io/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/",
+        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+        "resource_use_rights_description": "",
+        "resource_use_rights_authors_confirmation_1": false,
+        "resource_use_rights_authors_confirmation_2": false,
+        "resource_use_rights_authors_confirmation_3": false,
+        "resource_use_rights_support_by_licencing": false,
+        "provenance": {
+          "data_source": ""
+        },
+        "roles": [
+          {
+            "role_type": "Data manager",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_name": "Robert Koch Institute",
+            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
+            "role_affiliation_web_page": "https://www.rki.de",
+            "role_affiliation_identifiers": [
+              {
+                "role_affiliation_identifier": "01k5qnb77",
+                "role_affiliation_identifier_scheme": "ROR"
+              }
+            ],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Janko",
+            "role_name_personal_family_name": "Leddin",
+            "role_name_identifiers": []
+          },
+          {
+            "role_type": "Researcher",
+            "role_email": "",
+            "role_phone": "",
+            "role_affiliation_name": "Robert Koch Institute",
+            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
+            "role_affiliation_web_page": "https://www.rki.de",
+            "role_affiliation_identifiers": [
+              {
+                "role_affiliation_identifier": "01k5qnb77",
+                "role_affiliation_identifier_scheme": "ROR"
+              }
+            ],
+            "role_name_type": "Personal",
+            "role_name_personal_title": "Other",
+            "role_name_personal_given_name": "Michael",
+            "role_name_personal_family_name": "Porst",
+            "role_name_identifiers": []
+          }
+        ],
+        "ids": [
+          {
+            "id_identifier": "https://github.com/robert-koch-institut/https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+            "id_date": "",
+            "id_type": "URL",
+            "id_relation_type": "describes",
+            "id_resource_type_general": "Dataset"
+          },
+          {
+            "id_identifier": "10.5281/zenodo.7646704",
+            "id_date": "",
+            "id_type": "DOI",
+            "id_relation_type": "has part",
+            "id_resource_type_general": "Dataset"
+          }
+        ]
+      }
+    },
+    "relationships": {
+      "projects": {
+        "data": [
+          {
+            "id": "1",
+            "type": "projects"
+          }
+        ]
+      }
+    }
+  }
+}

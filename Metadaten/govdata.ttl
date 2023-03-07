@@ -1,0 +1,59 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <10.5281/zenodo.7646704> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Janko Leddin" ],[ a foaf:Person; foaf:name "Michael Porst" ];
+                  dct:description "<p>Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite <a href="http://www.daly.rki.de">www.daly.rki.de</a> visualisiert.</p>
+" ;
+                  dct:issued "2023-03-07T10:33:04+01:00"^^xsd:dateTime ;
+                  dct:modified "2023-03-07T10:33:04+01:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Ergebnisdatensatz_BURDEN_2020_–_Krankheitslast_in_Deutschland_und_seinen_Regionen>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "Krankheitslast","Übertragbare Krankheiten","Nichtübertragbare Krankheiten","Wunden und Verletzungen","Atemwegsinfektionen","Krebserkrankung","Darmkrebs","Lungenkrebs","Brustkrebs","Prostatakrebs","Herz-Kreislauf-Krankheiten","Koronare Herzkrankheit","Schlaganfall","Hypertensive Herzkrankheit","Chronisch obstruktive Lungenerkrankung","Demenz","Kopfschmerz","Substanzbezogenen Störungen","Verkehrsunfälle","Depression","Diabetes mellitus","Angststörungen","Kreuzschmerzen","Nackenschmerz","Todesursache","years of life lost","years lived with disability","disability-adjusted life years","Deutschland","COPD","Burden of Disease","Communicable Diseases","Noncommunicable Diseases","Wounds and Injuries","Respiratory Tract Infections","Cancer","Intestinal Neoplasms","Lung Cancer","Breast Tumor","Prostate cancer","Cardiovascular Diseases","Coronary Heart Disease","Stroke","Hypertensive heart disease","Chronic Obstructive Pulmonary Disease","Dementia","Headache","Substance-Related Disorders","Traffic Accidents","Anxiety Disorders","Low Back Pain","Neck Pain","Cause of Death","Germany","Open Data","RKI","Gesundheitsberichterstattung","Public health surveillance";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Leddin, Janko, Porst, Michael (2023): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. DOI:10.5281/zenodo.7646704" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "<p>Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite <a href="http://www.daly.rki.de">www.daly.rki.de</a> visualisiert.</p>
+" ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen" ;
+                    dcat:accessURL <https://raw.githubusercontent.com/robert-koch-institut/Ergebnisdatensatz_BURDEN_2020_–_Krankheitslast_in_Deutschland_und_seinen_Regionen>;
+                    dct:modified "2023-03-07T10:33:04+01:00"^^xsd:dateTime;
+                  ]
+                  ,
+                  [
+                    a dcat:Distribution ;
+                    dct:title "[Dokumentation] Ergebnisdatensatz_BURDEN_2020_–_Krankheitslast_in_Deutschland_und_seinen_Regionen.pdf" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen, Berlin: Zenodo. DOI:10.5281/zenodo.7646704" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen' bereitgestellten Daten" ;
+                    dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dcat:accessURL <https://github.com/robert-koch-institut/https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/%5BDokumentation%5D%20Ergebnisdatensatz_BURDEN_2020_–_Krankheitslast_in_Deutschland_und_seinen_Regionen.pdf>
+                  ].
