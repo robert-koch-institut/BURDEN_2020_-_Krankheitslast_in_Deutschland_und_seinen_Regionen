@@ -6,7 +6,7 @@
       "content_blobs": [
         {
           "content_type": "text/html",
-          "url": "https://github.com/robert-koch-institut/https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+          "url": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
           "original_filename": "Github Link"
         }
       ],
@@ -264,14 +264,14 @@
         "resource_language": [
           "DE (German)"
         ],
-        "resource_version": "2023-03-07",
+        "resource_version": "2023-02-16",
         "resource_web_page": "https://robert-koch-institut.github.io/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/",
         "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
         "resource_use_rights_description": "",
-        "resource_use_rights_authors_confirmation_1": false,
-        "resource_use_rights_authors_confirmation_2": false,
-        "resource_use_rights_authors_confirmation_3": false,
-        "resource_use_rights_support_by_licencing": false,
+        "resource_use_rights_authors_confirmation_1": true,
+        "resource_use_rights_authors_confirmation_2": true,
+        "resource_use_rights_authors_confirmation_3": true,
+        "resource_use_rights_support_by_licencing": true,
         "provenance": {
           "data_source": ""
         },
@@ -280,15 +280,9 @@
             "role_type": "Data manager",
             "role_email": "",
             "role_phone": "",
-            "role_affiliation_name": "Robert Koch Institute",
-            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
-            "role_affiliation_web_page": "https://www.rki.de",
-            "role_affiliation_identifiers": [
-              {
-                "role_affiliation_identifier": "01k5qnb77",
-                "role_affiliation_identifier_scheme": "ROR"
-              }
-            ],
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
             "role_name_type": "Personal",
             "role_name_personal_title": "Other",
             "role_name_personal_given_name": "Janko",
@@ -299,25 +293,35 @@
             "role_type": "Researcher",
             "role_email": "",
             "role_phone": "",
-            "role_affiliation_name": "Robert Koch Institute",
-            "role_affiliation_address": "Nordufer 20, 13353 Berlin",
-            "role_affiliation_web_page": "https://www.rki.de",
-            "role_affiliation_identifiers": [
-              {
-                "role_affiliation_identifier": "01k5qnb77",
-                "role_affiliation_identifier_scheme": "ROR"
-              }
-            ],
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
             "role_name_type": "Personal",
             "role_name_personal_title": "Other",
             "role_name_personal_given_name": "Michael",
             "role_name_personal_family_name": "Porst",
-            "role_name_identifiers": []
+            "role_name_identifiers": [
+              {
+                "role_name_identifier": "0000-0002-3894-3122",
+                "role_name_identifier_scheme": "ORCID"
+              }
+            ]
+          },
+          {
+            "role_type": "Creator/Author",
+            "role_email": "info@rki.de",
+            "role_phone": "",
+            "role_affiliation_name": "Robert Koch-Institut",
+            "role_affiliation_address": "",
+            "role_affiliation_web_page": "",
+            "role_affiliation_identifiers": [],
+            "role_name_type": "Organisational",
+            "role_name_organisational": "Robert Koch-Institut"
           }
         ],
         "ids": [
           {
-            "id_identifier": "https://github.com/robert-koch-institut/https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+            "id_identifier": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
             "id_date": "",
             "id_type": "URL",
             "id_relation_type": "describes",

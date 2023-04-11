@@ -27,7 +27,7 @@ abstract: >-
   zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur
   Veranschaulichung des Konzepts auf der Webseite www.daly.rki.de
   (http://www.daly.rki.de) visualisiert.
-date-released: '2023-03-07'
+date-released: '2023-02-16'
 keywords:
   - Krankheitslast
   - Übertragbare Krankheiten
@@ -92,4 +92,6 @@ url: >-
   https://robert-koch-institut.github.io/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/
 license: CC-BY-4.0
 doi: 10.5281/zenodo.7646704
-authors: []
+authors:
+  - name: Robert Koch-Institut
+    email: info@rki.de
