@@ -1,0 +1,16 @@
+{
+  "name": "burden_2020_-_krankheitslast_in_deutschland_und_seinen_regionen",
+  "title": "BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "burden2020_ergebnisdaten",
+      "type": "table",
+      "path": "../../BURDEN2020_Ergebnisdaten.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_BURDEN2020_Ergebnisdaten.json"
+    }
+  ]
+}
