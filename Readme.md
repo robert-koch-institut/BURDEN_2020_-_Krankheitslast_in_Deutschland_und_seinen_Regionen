@@ -183,15 +183,15 @@ Die BURDEN 2020 Ergebnisdaten enthalten die in der folgenden Tabelle abgebildete
 |Ursache_id|Num|`>0`|Eindeutige Schlüsselnummer der [Ursache].|
 |Ursache|Char|[Keytable_Ursache.csv](/Kontextmaterialien/Keytable_Ursache.csv)|Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde.|
 |Ursachenebene|Num|`0`, `1`, `2`, `3`,`4`|Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene.|
-|Region_id|Num|`>0`|Eindeutige Schlüsselnummer der [Region].|
+|Region_id|Num|`≥0`|Eindeutige Schlüsselnummer der [Region].|
 |Region|Char|[Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv)|Name der Region, für die der [Wert] berechnet wurde.|
 |Regionsebene|Char|`Land` <br>`Bundesland`<br>`Raumordnungsregion`|Bezeichnung der hierarchischen Ebene, in die die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.|
-|Geschlecht|Char|`männlich`<br>`weiblich`<br>`gesamt`|Geschlecht (biologisch), für das der [Wert] berechnet wurde.|
+|Geschlecht|Char|`männlich`<br>`weiblich`<br>`Gesamt`|Geschlecht (biologisch), für das der [Wert] berechnet wurde.|
 |Altersgruppe|Char|`< 5`, `5 - 9`, …, `95 +`<br>`Gesamt`<br>`Altersstandardisiert`<br><br>`< 1`, `1 - 4`, `95 - 99`, `100 +`|Bezeichnung der Altersgruppe, für die der [Wert] berechnet wurde.<br><br>Standardmäßig werden die Ergebnisse in 5-Jahres-Altersgruppen bis 95+, Gesamt und Altersstandardisiert angegeben. Daneben stehen für YLL zusätzliche Altersgruppen zur Verfügung: <br>`> 1`, `1 - 4`, `95 - 99` und `100 +`<br><br>`Altersstandardisiert` wurde nach der europäischen Standardbevölkerung 2013.|
 |Einheit|Char|`Absolut`<br>`Prozent`<br>`Rate`|Bezeichnung der Einheit, in der der [Wert] ausgegeben wird.<br><br>`Absolut`: [Wert] als absoluter Zahlenwert<br><br>`Prozent`: Ableitung des Absolutwertes als Anteil in Prozent (%) bezogen auf die Krankheitslast `Aller Ursachen` (Ursache_id=1000) je Region, Altersgruppe und Geschlecht.<br><br>`Rate`: Ableitung des Absolutwertes als Rate pro 100.000 Einwohner.|
-|Wert|Num|`>0`|Berechneter Zahlenwert des zeilenbezogenen Datenpunktes.|
-|UI_unten|Num|`>0`|95% Unsicherheitsintervall: untere Grenze|
-|UI_oben|Num|`>0`|95% Unsicherheitsintervall: obere Grenze|
+|Wert|Num|`≥0`|Berechneter Zahlenwert des zeilenbezogenen Datenpunktes.|
+|UI_unten|Num|`≥0`|95% Unsicherheitsintervall: untere Grenze|
+|UI_oben|Num|`≥0`|95% Unsicherheitsintervall: obere Grenze|
 
 
 #### Formatierung 
