@@ -1,0 +1,117 @@
+{
+  "fields": [
+    {
+      "name": "Berichtsjahr",
+      "type": "number",
+      "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde."
+    },
+    {
+      "name": "Indikator",
+      "type": "string",
+      "description": "Gibt die Krankheitslastkomponente an, für die der [Wert] berechnet wurde. [[Datengrundlagen und Methoden]](#Datengrundlagen-und-Methoden)",
+      "constraints": {
+        "enum": [
+          "YLL",
+          "YLD",
+          "DALY"
+        ]
+      }
+    },
+    {
+      "name": "Ursache_id",
+      "type": "number",
+      "description": "Eindeutige Schlüsselnummer der [Ursache].",
+      "constraints": {
+        "minimum": 1
+      }
+    },
+    {
+      "name": "Ursache",
+      "type": "string",
+      "description": "Für eine Liste der möglichen Werte, siehe [Keytable_Ursache.csv](/Kontextmaterialien/Keytable_Ursache.csv). Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde."
+    },
+    {
+      "name": "Ursachenebene",
+      "type": "number",
+      "description": "Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene."
+    },
+    {
+      "name": "Region_id",
+      "type": "number",
+      "description": "Eindeutige Schlüsselnummer der [Region].",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "Region",
+      "type": "string",
+      "description": "Für eine Liste der möglichen Werte, siehe [Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv). Name der Region, für die der [Wert] berechnet wurde."
+    },
+    {
+      "name": "Regionsebene",
+      "type": "string",
+      "description": "Bezeichnung der hierarchischen Ebene, in die die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.",
+      "constraints": {
+        "enum": [
+          "Land",
+          "Bundesland",
+          "Raumordnungsregion"
+        ]
+      }
+    },
+    {
+      "name": "Geschlecht",
+      "type": "string",
+      "description": "Geschlecht (biologisch), für das der [Wert] berechnet wurde.",
+      "constraints": {
+        "enum": [
+          "männlich",
+          "weiblich",
+          "Gesamt"
+        ]
+      }
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "description": "Bezeichnung der Altersgruppe, für die der [Wert] berechnet wurde.<br><br>Standardmäßig werden die Ergebnisse in 5-Jahres-Altersgruppen bis 95+, Gesamt und Altersstandardisiert angegeben. Daneben stehen für YLL zusätzliche Altersgruppen zur Verfügung: <br>`> 1`, `1 - 4`, `95 - 99` und `100 +`<br><br>`Altersstandardisiert` wurde nach der europäischen Standardbevölkerung 2013."
+    },
+    {
+      "name": "Einheit",
+      "type": "string",
+      "description": "Bezeichnung der Einheit, in der der [Wert] ausgegeben wird.<br><br>`Absolut`: [Wert] als absoluter Zahlenwert<br><br>`Prozent`: Ableitung des Absolutwertes als Anteil in Prozent (%) bezogen auf die Krankheitslast `Aller Ursachen` (Ursache_id=1000) je Region, Altersgruppe und Geschlecht.<br><br>`Rate`: Ableitung des Absolutwertes als Rate pro 100.000 Einwohner.",
+      "constraints": {
+        "enum": [
+          "Absolut",
+          "Prozent",
+          "Rate"
+        ]
+      }
+    },
+    {
+      "name": "Wert",
+      "type": "number",
+      "description": "Berechneter Zahlenwert des zeilenbezogenen Datenpunktes.",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "UI_unten",
+      "type": "number",
+      "description": "95% Unsicherheitsintervall: untere Grenze",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "UI_oben",
+      "type": "number",
+      "description": "95% Unsicherheitsintervall: obere Grenze",
+      "constraints": {
+        "minimum": 0
+      }
+    }
+  ]
+}
