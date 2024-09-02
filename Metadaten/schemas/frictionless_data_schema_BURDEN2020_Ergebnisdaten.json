@@ -3,7 +3,11 @@
     {
       "name": "Berichtsjahr",
       "type": "number",
-      "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde."
+      "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde.",
+      "constraints": {
+        "minimum": 2017,
+        "maximum": 2017
+      }
     },
     {
       "name": "Indikator",
@@ -33,16 +37,7 @@
     {
       "name": "Ursachenebene",
       "type": "number",
-      "description": "Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene.",
-      "constraints": {
-        "enum": [
-          "0",
-          "1",
-          "2",
-          "3",
-          "4"
-        ]
-      }
+      "description": "Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene."
     },
     {
       "name": "Region_id",

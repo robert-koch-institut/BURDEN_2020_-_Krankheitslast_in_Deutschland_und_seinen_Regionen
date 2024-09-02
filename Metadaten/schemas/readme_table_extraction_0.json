@@ -3,7 +3,11 @@
     {
       "name": "Berichtsjahr",
       "type": "number",
-      "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde."
+      "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde.",
+      "constraints": {
+        "minimum": 2017,
+        "maximum": 2017
+      }
     },
     {
       "name": "Indikator",
