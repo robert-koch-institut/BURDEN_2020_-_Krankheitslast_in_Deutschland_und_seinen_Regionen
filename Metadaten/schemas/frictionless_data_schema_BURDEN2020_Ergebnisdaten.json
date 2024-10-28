@@ -32,7 +32,7 @@
     {
       "name": "Ursache",
       "type": "string",
-      "description": "Für eine Liste der möglichen Werte, siehe [Keytable_Ursache.csv](/Kontextmaterialien/Keytable_Ursache.csv). Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde."
+      "description": "Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde."
     },
     {
       "name": "Ursachenebene",
@@ -50,7 +50,7 @@
     {
       "name": "Region",
       "type": "string",
-      "description": "Für eine Liste der möglichen Werte, siehe [Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv). Name der Region, für die der [Wert] berechnet wurde."
+      "description": "Name der Region, für die der [Wert] berechnet wurde."
     },
     {
       "name": "Regionsebene",
