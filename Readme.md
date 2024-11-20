@@ -174,8 +174,6 @@ Der Datensatz erhebt strukturell keinen Anspruch typischer Normalformen der Date
 
 #### Variablen und Variablenausprägung  
 
-Die BURDEN 2020 Ergebnisdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "BURDEN2020_Ergebnisdaten", "lang": "de"} -->
 
 Die Datei [BURDEN2020_Ergebnisdaten.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/BURDEN2020_Ergebnisdaten.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_BURDEN2020_Ergebnisdaten.json](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Metadaten/schemas/frictionless_data_schema_BURDEN2020_Ergebnisdaten.json) hinterlegt:
@@ -202,12 +200,6 @@ Die Datei [BURDEN2020_Ergebnisdaten.csv](https://github.com/robert-koch-institut
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
-
 
 
 #### Formatierung 
