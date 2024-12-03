@@ -1,7 +1,7 @@
 {
   "name": "10.5281/zenodo.7323765",
   "title": "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen",
-  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.7323765) oder Github (https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen)",
+  "description": "Diese Datei gibt eine Übersicht über die im Datensatz enthaltenen Daten im Data Package Standard (https://datapackage.org). Der dokumentierte Datensatz ist auf den Plattformen Zenodo (https://doi.org/10.5281/zenodo.7323765) und Github (https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen) verfügbar.",
   "homepage": "https://doi.org/10.5281/zenodo.7323765",
   "resources": [
     {
