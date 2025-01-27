@@ -2,23 +2,20 @@
   "fields": [
     {
       "name": "Berichtsjahr",
-      "type": "number",
+      "type": "date",
       "description": "Gibt das Jahr an, für das der [Wert] berechnet wurde.",
       "constraints": {
-        "minimum": 2017,
-        "maximum": 2017
-      }
+        "minimum": "2017",
+        "maximum": "2017"
+      },
+      "format": "%Y"
     },
     {
       "name": "Indikator",
       "type": "string",
       "description": "Gibt die Krankheitslastkomponente an, für die der [Wert] berechnet wurde. [[Datengrundlagen und Methoden]](#Datengrundlagen-und-Methoden)",
       "constraints": {
-        "enum": [
-          "YLL",
-          "YLD",
-          "DALY"
-        ]
+        "enum": ["YLL", "YLD", "DALY"]
       }
     },
     {
@@ -27,17 +24,911 @@
       "description": "Eindeutige Schlüsselnummer der [Ursache].",
       "constraints": {
         "minimum": 1
-      }
+      },
+      "categories": [
+        {
+          "value": "1000",
+          "label": "Alle Ursachen"
+        },
+        {
+          "value": "2000",
+          "label": "Übertragbare, maternale, neonatale und ernährungsbedingte Erkrankungen"
+        },
+        {
+          "value": "2001",
+          "label": "HIV/AIDS und sexuell übertragbare Erkrankungen"
+        },
+        {
+          "value": "2002",
+          "label": "HIV/AIDS"
+        },
+        {
+          "value": "2007",
+          "label": "Sexuell übertragbare Krankheiten ohne HIV"
+        },
+        {
+          "value": "2014",
+          "label": "Atemwegsinfektionen"
+        },
+        {
+          "value": "2015",
+          "label": "Tuberkulose"
+        },
+        {
+          "value": "2020",
+          "label": "Untere Atemwegsinfektionen"
+        },
+        {
+          "value": "2027",
+          "label": "Obere Atemwegsinfektionen"
+        },
+        {
+          "value": "2028",
+          "label": "Otitis media"
+        },
+        {
+          "value": "2029",
+          "label": "Enterale Infektionen"
+        },
+        {
+          "value": "2030",
+          "label": "Durchfallerkrankungen"
+        },
+        {
+          "value": "2046",
+          "label": "Typhus und Paratyphus"
+        },
+        {
+          "value": "2049",
+          "label": "Invasive nicht-typhoide Salmonellen (iNTS)"
+        },
+        {
+          "value": "2051",
+          "label": "Andere intestinale Infektionskrankheiten"
+        },
+        {
+          "value": "2052",
+          "label": "Vernachlässigte Tropenkrankheiten und Malaria"
+        },
+        {
+          "value": "2053",
+          "label": "Malaria"
+        },
+        {
+          "value": "2057",
+          "label": "Chagas-Krankheit"
+        },
+        {
+          "value": "2062",
+          "label": "Schistosomiasis"
+        },
+        {
+          "value": "2064",
+          "label": "Zystische Echinokokkose"
+        },
+        {
+          "value": "2080",
+          "label": "Andere vernachlässigte Tropenkrankheiten"
+        },
+        {
+          "value": "2081",
+          "label": "Andere Infektionskrankheiten"
+        },
+        {
+          "value": "2082",
+          "label": "Meningitis"
+        },
+        {
+          "value": "2088",
+          "label": "Enzephalitis"
+        },
+        {
+          "value": "2090",
+          "label": "Keuchhusten"
+        },
+        {
+          "value": "2092",
+          "label": "Masern"
+        },
+        {
+          "value": "2093",
+          "label": "Varizellen und Herpes Zoster"
+        },
+        {
+          "value": "2094",
+          "label": "Röteln"
+        },
+        {
+          "value": "2096",
+          "label": "Akute Hepatitis"
+        },
+        {
+          "value": "2103",
+          "label": "Sonstige nicht näher bezeichnete Infektionskrankheiten"
+        },
+        {
+          "value": "2105",
+          "label": "Maternale und neonatale Störungen"
+        },
+        {
+          "value": "2106",
+          "label": "Maternale Krankheiten"
+        },
+        {
+          "value": "2121",
+          "label": "Neonatale Krankheiten"
+        },
+        {
+          "value": "2128",
+          "label": "Mangelernährung"
+        },
+        {
+          "value": "2129",
+          "label": "Protein-Energie-Mangelernährung"
+        },
+        {
+          "value": "2132",
+          "label": "Diätischer Eisenmangel"
+        },
+        {
+          "value": "2133",
+          "label": "Andere Mangelernährung"
+        },
+        {
+          "value": "3000",
+          "label": "Nicht-übertragbare Erkrankungen"
+        },
+        {
+          "value": "3001",
+          "label": "Krebserkrankungen"
+        },
+        {
+          "value": "3002",
+          "label": "Lippen- und Mundhöhlenkrebs"
+        },
+        {
+          "value": "3003",
+          "label": "Nasenrachenkrebs"
+        },
+        {
+          "value": "3004",
+          "label": "Anderer Rachenkrebs"
+        },
+        {
+          "value": "3005",
+          "label": "Ösophaguskrebs"
+        },
+        {
+          "value": "3006",
+          "label": "Magenkrebs"
+        },
+        {
+          "value": "3007",
+          "label": "Kolon- und Rektumkrebs"
+        },
+        {
+          "value": "3008",
+          "label": "Leberkrebs"
+        },
+        {
+          "value": "3015",
+          "label": "Gallenblasen- und Gallengangkrebs"
+        },
+        {
+          "value": "3016",
+          "label": "Pankreaskrebs"
+        },
+        {
+          "value": "3017",
+          "label": "Kehlkopfkrebs"
+        },
+        {
+          "value": "3018",
+          "label": "Trachea-, Bronchial- und Lungenkrebs"
+        },
+        {
+          "value": "3019",
+          "label": "Malignes Hautmelanom"
+        },
+        {
+          "value": "3020",
+          "label": "Heller Hautkrebs"
+        },
+        {
+          "value": "3023",
+          "label": "Weichteilgewebe und andere extraossäre Sarkome"
+        },
+        {
+          "value": "3024",
+          "label": "Knochenkrebs"
+        },
+        {
+          "value": "3025",
+          "label": "Brustkrebs"
+        },
+        {
+          "value": "3026",
+          "label": "Zervixkrebs"
+        },
+        {
+          "value": "3027",
+          "label": "Uteruskrebs"
+        },
+        {
+          "value": "3028",
+          "label": "Ovarialkrebs"
+        },
+        {
+          "value": "3029",
+          "label": "Prostatakrebs"
+        },
+        {
+          "value": "3030",
+          "label": "Hodenkrebs"
+        },
+        {
+          "value": "3031",
+          "label": "Nierenkrebs"
+        },
+        {
+          "value": "3032",
+          "label": "Blasenkrebs"
+        },
+        {
+          "value": "3033",
+          "label": "Gehirn- und Zentralnervenkrebs"
+        },
+        {
+          "value": "3034",
+          "label": "Augenkrebs"
+        },
+        {
+          "value": "3037",
+          "label": "Neuroblastom und anderer Nervenzellenkrebs"
+        },
+        {
+          "value": "3038",
+          "label": "Schilddrüsenkrebs"
+        },
+        {
+          "value": "3039",
+          "label": "Mesotheliom"
+        },
+        {
+          "value": "3040",
+          "label": "Hodgkin-Lymphom"
+        },
+        {
+          "value": "3041",
+          "label": "Non-Hodgkin-Lymphom"
+        },
+        {
+          "value": "3044",
+          "label": "Multiples Myelom"
+        },
+        {
+          "value": "3045",
+          "label": "Leukämie"
+        },
+        {
+          "value": "3051",
+          "label": "Andere maligne Neoplasien"
+        },
+        {
+          "value": "3052",
+          "label": "Andere nicht-maligne Neoplasien"
+        },
+        {
+          "value": "3058",
+          "label": "Kardiovaskuläre Erkrankungen"
+        },
+        {
+          "value": "3059",
+          "label": "Rheumatische Herzerkrankung"
+        },
+        {
+          "value": "3060",
+          "label": "Koronare Herzkrankheit"
+        },
+        {
+          "value": "3064",
+          "label": "Schlaganfall"
+        },
+        {
+          "value": "3065",
+          "label": "Ischämischer Schlaganfall"
+        },
+        {
+          "value": "3066",
+          "label": "Intrazerebrale Blutung"
+        },
+        {
+          "value": "3067",
+          "label": "Subarachnoidalblutung"
+        },
+        {
+          "value": "3068",
+          "label": "Hypertensive Herzkrankheit"
+        },
+        {
+          "value": "3069",
+          "label": "Nicht-rheumatische Herzklappenerkrankung"
+        },
+        {
+          "value": "3073",
+          "label": "Kardiomyopathie und Myokarditis"
+        },
+        {
+          "value": "3077",
+          "label": "Primäre pulmonale arterielle Hypertonie"
+        },
+        {
+          "value": "3078",
+          "label": "Vorhofflimmern und -flattern"
+        },
+        {
+          "value": "3079",
+          "label": "Aortenaneurysma"
+        },
+        {
+          "value": "3080",
+          "label": "Periphere arterielle Erkrankung"
+        },
+        {
+          "value": "3081",
+          "label": "Endokarditis"
+        },
+        {
+          "value": "3084",
+          "label": "Andere kardiovaskuläre und vaskuläre Erkrankungen"
+        },
+        {
+          "value": "3085",
+          "label": "Chronische Atemwegserkrankungen"
+        },
+        {
+          "value": "3086",
+          "label": "Chronische obstruktive Lungenerkrankung"
+        },
+        {
+          "value": "3087",
+          "label": "Pneumokoniose"
+        },
+        {
+          "value": "3092",
+          "label": "Asthma"
+        },
+        {
+          "value": "3093",
+          "label": "Interstitielle Lungenerkrankung und Sarkoidose der Lunge"
+        },
+        {
+          "value": "3097",
+          "label": "Andere chronische Atemwegserkrankungen"
+        },
+        {
+          "value": "3098",
+          "label": "Verdauungserkrankungen"
+        },
+        {
+          "value": "3099",
+          "label": "Chronische Lebererkrankungen"
+        },
+        {
+          "value": "3105",
+          "label": "Erkrankungen des oberen Verdauungssystems"
+        },
+        {
+          "value": "3109",
+          "label": "Appendizitis"
+        },
+        {
+          "value": "3110",
+          "label": "Paralytischer Ileus und intestinale Obstruktion"
+        },
+        {
+          "value": "3111",
+          "label": "Inguinale, femorale und abdominale Hernie"
+        },
+        {
+          "value": "3112",
+          "label": "Entzündliche Darmerkrankung"
+        },
+        {
+          "value": "3113",
+          "label": "Vaskuläre Darmerkrankungen"
+        },
+        {
+          "value": "3114",
+          "label": "Gallenblasen- und Gallenkrankheiten"
+        },
+        {
+          "value": "3115",
+          "label": "Pankreatitis"
+        },
+        {
+          "value": "3121",
+          "label": "Andere Verdauungserkrankungen"
+        },
+        {
+          "value": "3122",
+          "label": "Neurologische Störungen"
+        },
+        {
+          "value": "3123",
+          "label": "Alzheimer- und andere Demenzerkrankungen"
+        },
+        {
+          "value": "3124",
+          "label": "Parkinson-Krankheit"
+        },
+        {
+          "value": "3125",
+          "label": "Epilepsie"
+        },
+        {
+          "value": "3126",
+          "label": "Multiple Sklerose"
+        },
+        {
+          "value": "3127",
+          "label": "Motoneuronkrankheit"
+        },
+        {
+          "value": "3128",
+          "label": "Kopfschmerzerkrankungen"
+        },
+        {
+          "value": "3129",
+          "label": "Migräne"
+        },
+        {
+          "value": "3133",
+          "label": "Spannungskopfschmerz"
+        },
+        {
+          "value": "3136",
+          "label": "Andere neurologische Störungen"
+        },
+        {
+          "value": "3143",
+          "label": "Psychische Störungen"
+        },
+        {
+          "value": "3145",
+          "label": "Depressive Störungen"
+        },
+        {
+          "value": "3146",
+          "label": "Majore Depression"
+        },
+        {
+          "value": "3147",
+          "label": "Dysthymie"
+        },
+        {
+          "value": "3149",
+          "label": "Angststörungen"
+        },
+        {
+          "value": "3150",
+          "label": "Essstörungen"
+        },
+        {
+          "value": "3162",
+          "label": "Alkohol, Drogen und andere Substanzen"
+        },
+        {
+          "value": "3163",
+          "label": "Alkoholbezogene Störungen"
+        },
+        {
+          "value": "3164",
+          "label": "Drogenkonsum"
+        },
+        {
+          "value": "3170",
+          "label": "Diabetes und Nierenerkrankungen"
+        },
+        {
+          "value": "3171",
+          "label": "Diabetes mellitus"
+        },
+        {
+          "value": "3172",
+          "label": "Diabetes mellitus Typ 1"
+        },
+        {
+          "value": "3173",
+          "label": "Diabetes mellitus Typ 2"
+        },
+        {
+          "value": "3174",
+          "label": "Chronische Nierenerkrankung"
+        },
+        {
+          "value": "3180",
+          "label": "Akute Glomerulonephritis"
+        },
+        {
+          "value": "3181",
+          "label": "Haut- und Unterhautkrankheiten"
+        },
+        {
+          "value": "3187",
+          "label": "Bakterielle Hautkrankheiten"
+        },
+        {
+          "value": "3190",
+          "label": "Krätze"
+        },
+        {
+          "value": "3197",
+          "label": "Dekubitusgeschwür"
+        },
+        {
+          "value": "3200",
+          "label": "Andere Haut- und Unterhautkrankheiten"
+        },
+        {
+          "value": "3201",
+          "label": "Krankheiten der Sinnesorgane"
+        },
+        {
+          "value": "3213",
+          "label": "Andere Krankheiten der Sinnesorgane"
+        },
+        {
+          "value": "3214",
+          "label": "Muskel-Skelett-Erkrankungen"
+        },
+        {
+          "value": "3215",
+          "label": "Rheumatoide Arthritis"
+        },
+        {
+          "value": "3221",
+          "label": "Schmerzen im unteren Rücken"
+        },
+        {
+          "value": "3224",
+          "label": "Nackenschmerz"
+        },
+        {
+          "value": "3232",
+          "label": "Andere Störungen des Muskel-Skelett-Systems"
+        },
+        {
+          "value": "3233",
+          "label": "Andere nicht übertragbare Krankheiten"
+        },
+        {
+          "value": "3234",
+          "label": "Kongenitale Anomalien"
+        },
+        {
+          "value": "3246",
+          "label": "Harnwegserkrankungen und männliche Unfruchtbarkeit"
+        },
+        {
+          "value": "3255",
+          "label": "Gynäkologische Erkrankungen"
+        },
+        {
+          "value": "3266",
+          "label": "Hämoglobinopathien und hämatytische Anämien"
+        },
+        {
+          "value": "3275",
+          "label": "Endokrine, metabolische, Blut- und Immunstörungen"
+        },
+        {
+          "value": "3289",
+          "label": "Plötzlicher Kindstod"
+        },
+        {
+          "value": "4000",
+          "label": "Verletzungen"
+        },
+        {
+          "value": "4001",
+          "label": "Verkehrsunfälle"
+        },
+        {
+          "value": "4002",
+          "label": "Straßenverkehrsunfälle"
+        },
+        {
+          "value": "4003",
+          "label": "Straßenverkehrsunfall, Fußgänger"
+        },
+        {
+          "value": "4004",
+          "label": "Straßenverkehrsunfall, Radfahrer"
+        },
+        {
+          "value": "4005",
+          "label": "Straßenverkehrsunfall, Motorradfahrer"
+        },
+        {
+          "value": "4006",
+          "label": "Straßenverkehrsunfall, Kraftfahrzeuginsasse"
+        },
+        {
+          "value": "4007",
+          "label": "Anderer Straßenverkehrsunfall"
+        },
+        {
+          "value": "4008",
+          "label": "Andere Verkehrsunfälle"
+        },
+        {
+          "value": "4009",
+          "label": "Unbeabsichtigte Verletzungen"
+        },
+        {
+          "value": "4010",
+          "label": "Stürze"
+        },
+        {
+          "value": "4011",
+          "label": "Ertrinken"
+        },
+        {
+          "value": "4012",
+          "label": "Feuer, Hitze und heiße Stoffe"
+        },
+        {
+          "value": "4013",
+          "label": "Vergiftungen"
+        },
+        {
+          "value": "4017",
+          "label": "Exposition gegenüber mechanischen Kräften"
+        },
+        {
+          "value": "4020",
+          "label": "Nebenwirkungen einer medizinischen Behandlung"
+        },
+        {
+          "value": "4021",
+          "label": "Tierkontakt"
+        },
+        {
+          "value": "4024",
+          "label": "Fremdkörper"
+        },
+        {
+          "value": "4029",
+          "label": "Hitze- und Kältebelastung"
+        },
+        {
+          "value": "4030",
+          "label": "Exposition gegenüber Naturgewalten"
+        },
+        {
+          "value": "4038",
+          "label": "Andere unbeabsichtigte Verletzungen"
+        },
+        {
+          "value": "4039",
+          "label": "Selbstschädigung und Gewalt"
+        },
+        {
+          "value": "4040",
+          "label": "Selbstschädigung"
+        },
+        {
+          "value": "4046",
+          "label": "Zwischenmenschliche Gewalt"
+        },
+        {
+          "value": "4051",
+          "label": "Konflikte und Terrorismus"
+        },
+        {
+          "value": "4054",
+          "label": "Staatliche Gewalt und Polizeikonflikte"
+        },
+        {
+          "value": "9999",
+          "label": "Sonstige"
+        }
+      ]
     },
     {
       "name": "Ursache",
       "type": "string",
-      "description": "Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde."
+      "description": "Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde.",
+      "constraints": {
+        "enum": [
+          "Alle Ursachen",
+          "Übertragbare, maternale, neonatale und ernährungsbedingte Erkrankungen",
+          "HIV/AIDS und sexuell übertragbare Erkrankungen",
+          "HIV/AIDS",
+          "Sexuell übertragbare Krankheiten ohne HIV",
+          "Atemwegsinfektionen",
+          "Tuberkulose",
+          "Untere Atemwegsinfektionen",
+          "Obere Atemwegsinfektionen",
+          "Otitis media",
+          "Enterale Infektionen",
+          "Durchfallerkrankungen",
+          "Typhus und Paratyphus",
+          "Invasive nicht-typhoide Salmonellen (iNTS)",
+          "Andere intestinale Infektionskrankheiten",
+          "Vernachlässigte Tropenkrankheiten und Malaria",
+          "Malaria",
+          "Chagas-Krankheit",
+          "Schistosomiasis",
+          "Zystische Echinokokkose",
+          "Andere vernachlässigte Tropenkrankheiten",
+          "Andere Infektionskrankheiten",
+          "Meningitis",
+          "Enzephalitis",
+          "Keuchhusten",
+          "Masern",
+          "Varizellen und Herpes Zoster",
+          "Röteln",
+          "Akute Hepatitis",
+          "Sonstige nicht näher bezeichnete Infektionskrankheiten",
+          "Maternale und neonatale Störungen",
+          "Maternale Krankheiten",
+          "Neonatale Krankheiten",
+          "Mangelernährung",
+          "Protein-Energie-Mangelernährung",
+          "Diätischer Eisenmangel",
+          "Andere Mangelernährung",
+          "Nicht-übertragbare Erkrankungen",
+          "Krebserkrankungen",
+          "Lippen- und Mundhöhlenkrebs",
+          "Nasenrachenkrebs",
+          "Anderer Rachenkrebs",
+          "Ösophaguskrebs",
+          "Magenkrebs",
+          "Kolon- und Rektumkrebs",
+          "Leberkrebs",
+          "Gallenblasen- und Gallengangkrebs",
+          "Pankreaskrebs",
+          "Kehlkopfkrebs",
+          "Trachea-, Bronchial- und Lungenkrebs",
+          "Malignes Hautmelanom",
+          "Heller Hautkrebs",
+          "Weichteilgewebe und andere extraossäre Sarkome",
+          "Knochenkrebs",
+          "Brustkrebs",
+          "Zervixkrebs",
+          "Uteruskrebs",
+          "Ovarialkrebs",
+          "Prostatakrebs",
+          "Hodenkrebs",
+          "Nierenkrebs",
+          "Blasenkrebs",
+          "Gehirn- und Zentralnervenkrebs",
+          "Augenkrebs",
+          "Neuroblastom und anderer Nervenzellenkrebs",
+          "Schilddrüsenkrebs",
+          "Mesotheliom",
+          "Hodgkin-Lymphom",
+          "Non-Hodgkin-Lymphom",
+          "Multiples Myelom",
+          "Leukämie",
+          "Andere maligne Neoplasien",
+          "Andere nicht-maligne Neoplasien",
+          "Kardiovaskuläre Erkrankungen",
+          "Rheumatische Herzerkrankung",
+          "Koronare Herzkrankheit",
+          "Schlaganfall",
+          "Ischämischer Schlaganfall",
+          "Intrazerebrale Blutung",
+          "Subarachnoidalblutung",
+          "Hypertensive Herzkrankheit",
+          "Nicht-rheumatische Herzklappenerkrankung",
+          "Kardiomyopathie und Myokarditis",
+          "Primäre pulmonale arterielle Hypertonie",
+          "Vorhofflimmern und -flattern",
+          "Aortenaneurysma",
+          "Periphere arterielle Erkrankung",
+          "Endokarditis",
+          "Andere kardiovaskuläre und vaskuläre Erkrankungen",
+          "Chronische Atemwegserkrankungen",
+          "Chronische obstruktive Lungenerkrankung",
+          "Pneumokoniose",
+          "Asthma",
+          "Interstitielle Lungenerkrankung und Sarkoidose der Lunge",
+          "Andere chronische Atemwegserkrankungen",
+          "Verdauungserkrankungen",
+          "Chronische Lebererkrankungen",
+          "Erkrankungen des oberen Verdauungssystems",
+          "Appendizitis",
+          "Paralytischer Ileus und intestinale Obstruktion",
+          "Inguinale, femorale und abdominale Hernie",
+          "Entzündliche Darmerkrankung",
+          "Vaskuläre Darmerkrankungen",
+          "Gallenblasen- und Gallenkrankheiten",
+          "Pankreatitis",
+          "Andere Verdauungserkrankungen",
+          "Neurologische Störungen",
+          "Alzheimer- und andere Demenzerkrankungen",
+          "Parkinson-Krankheit",
+          "Epilepsie",
+          "Multiple Sklerose",
+          "Motoneuronkrankheit",
+          "Kopfschmerzerkrankungen",
+          "Migräne",
+          "Spannungskopfschmerz",
+          "Andere neurologische Störungen",
+          "Psychische Störungen",
+          "Depressive Störungen",
+          "Majore Depression",
+          "Dysthymie",
+          "Angststörungen",
+          "Essstörungen",
+          "Alkohol, Drogen und andere Substanzen",
+          "Alkoholbezogene Störungen",
+          "Drogenkonsum",
+          "Diabetes und Nierenerkrankungen",
+          "Diabetes mellitus",
+          "Diabetes mellitus Typ 1",
+          "Diabetes mellitus Typ 2",
+          "Chronische Nierenerkrankung",
+          "Akute Glomerulonephritis",
+          "Haut- und Unterhautkrankheiten",
+          "Bakterielle Hautkrankheiten",
+          "Krätze",
+          "Dekubitusgeschwür",
+          "Andere Haut- und Unterhautkrankheiten",
+          "Krankheiten der Sinnesorgane",
+          "Andere Krankheiten der Sinnesorgane",
+          "Muskel-Skelett-Erkrankungen",
+          "Rheumatoide Arthritis",
+          "Schmerzen im unteren Rücken",
+          "Nackenschmerz",
+          "Andere Störungen des Muskel-Skelett-Systems",
+          "Andere nicht übertragbare Krankheiten",
+          "Kongenitale Anomalien",
+          "Harnwegserkrankungen und männliche Unfruchtbarkeit",
+          "Gynäkologische Erkrankungen",
+          "Hämoglobinopathien und hämatytische Anämien",
+          "Endokrine, metabolische, Blut- und Immunstörungen",
+          "Plötzlicher Kindstod",
+          "Verletzungen",
+          "Verkehrsunfälle",
+          "Straßenverkehrsunfälle",
+          "Straßenverkehrsunfall, Fußgänger",
+          "Straßenverkehrsunfall, Radfahrer",
+          "Straßenverkehrsunfall, Motorradfahrer",
+          "Straßenverkehrsunfall, Kraftfahrzeuginsasse",
+          "Anderer Straßenverkehrsunfall",
+          "Andere Verkehrsunfälle",
+          "Unbeabsichtigte Verletzungen",
+          "Stürze",
+          "Ertrinken",
+          "Feuer, Hitze und heiße Stoffe",
+          "Vergiftungen",
+          "Exposition gegenüber mechanischen Kräften",
+          "Nebenwirkungen einer medizinischen Behandlung",
+          "Tierkontakt",
+          "Fremdkörper",
+          "Hitze- und Kältebelastung",
+          "Exposition gegenüber Naturgewalten",
+          "Andere unbeabsichtigte Verletzungen",
+          "Selbstschädigung und Gewalt",
+          "Selbstschädigung",
+          "Zwischenmenschliche Gewalt",
+          "Konflikte und Terrorismus",
+          "Staatliche Gewalt und Polizeikonflikte",
+          "Sonstige"
+        ]
+      }
     },
     {
       "name": "Ursachenebene",
       "type": "number",
-      "description": "Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene."
+      "description": "Nummer als Bezeichner der hierarchischen Ebene, in die die [Ursache] eingeordnet ist. Bsp.: 0 = Höchste Ebene.",
+      "constraints": {
+        "enum": [0, 1, 2, 3, 4]
+      }
     },
     {
       "name": "Region_id",
@@ -45,23 +936,590 @@
       "description": "Eindeutige Schlüsselnummer der [Region].",
       "constraints": {
         "minimum": 0
-      }
+      },
+      "categories": [
+        {
+          "value": "0",
+          "label": "Deutschland"
+        },
+        {
+          "value": "1",
+          "label": "Schleswig-Holstein"
+        },
+        {
+          "value": "101",
+          "label": "Schleswig-Holstein Mitte"
+        },
+        {
+          "value": "102",
+          "label": "Schleswig-Holstein Nord"
+        },
+        {
+          "value": "103",
+          "label": "Schleswig-Holstein Ost"
+        },
+        {
+          "value": "104",
+          "label": "Schleswig-Holstein Süd"
+        },
+        {
+          "value": "105",
+          "label": "Schleswig-Holstein Süd-West"
+        },
+        {
+          "value": "2",
+          "label": "Hamburg"
+        },
+        {
+          "value": "201",
+          "label": "Hamburg"
+        },
+        {
+          "value": "3",
+          "label": "Niedersachsen"
+        },
+        {
+          "value": "301",
+          "label": "Braunschweig"
+        },
+        {
+          "value": "302",
+          "label": "Bremen-Umland"
+        },
+        {
+          "value": "303",
+          "label": "Bremerhaven"
+        },
+        {
+          "value": "304",
+          "label": "Emsland"
+        },
+        {
+          "value": "305",
+          "label": "Göttingen"
+        },
+        {
+          "value": "306",
+          "label": "Hamburg-Umland-Süd"
+        },
+        {
+          "value": "307",
+          "label": "Hannover"
+        },
+        {
+          "value": "308",
+          "label": "Hildesheim"
+        },
+        {
+          "value": "309",
+          "label": "Lüneburg"
+        },
+        {
+          "value": "310",
+          "label": "Oldenburg"
+        },
+        {
+          "value": "311",
+          "label": "Osnabrück"
+        },
+        {
+          "value": "312",
+          "label": "Ost-Friesland"
+        },
+        {
+          "value": "313",
+          "label": "Südheide"
+        },
+        {
+          "value": "4",
+          "label": "Bremen"
+        },
+        {
+          "value": "401",
+          "label": "Bremen"
+        },
+        {
+          "value": "5",
+          "label": "Nordrhein-Westfalen"
+        },
+        {
+          "value": "501",
+          "label": "Aachen"
+        },
+        {
+          "value": "502",
+          "label": "Arnsberg"
+        },
+        {
+          "value": "503",
+          "label": "Bielefeld"
+        },
+        {
+          "value": "504",
+          "label": "Bochum/Hagen"
+        },
+        {
+          "value": "505",
+          "label": "Bonn"
+        },
+        {
+          "value": "506",
+          "label": "Dortmund"
+        },
+        {
+          "value": "507",
+          "label": "Duisburg/Essen"
+        },
+        {
+          "value": "508",
+          "label": "Düsseldorf"
+        },
+        {
+          "value": "509",
+          "label": "Emscher-Lippe"
+        },
+        {
+          "value": "510",
+          "label": "Köln"
+        },
+        {
+          "value": "511",
+          "label": "Münster"
+        },
+        {
+          "value": "512",
+          "label": "Paderborn"
+        },
+        {
+          "value": "513",
+          "label": "Siegen"
+        },
+        {
+          "value": "6",
+          "label": "Hessen"
+        },
+        {
+          "value": "601",
+          "label": "Mittelhessen"
+        },
+        {
+          "value": "602",
+          "label": "Nordhessen"
+        },
+        {
+          "value": "603",
+          "label": "Osthessen"
+        },
+        {
+          "value": "604",
+          "label": "Rhein-Main"
+        },
+        {
+          "value": "605",
+          "label": "Starkenburg"
+        },
+        {
+          "value": "7",
+          "label": "Rheinland-Pfalz"
+        },
+        {
+          "value": "701",
+          "label": "Mittelrhein-Westerwald"
+        },
+        {
+          "value": "702",
+          "label": "Rheinhessen-Nahe"
+        },
+        {
+          "value": "703",
+          "label": "Rheinpfalz"
+        },
+        {
+          "value": "704",
+          "label": "Trier"
+        },
+        {
+          "value": "705",
+          "label": "Westpfalz"
+        },
+        {
+          "value": "8",
+          "label": "Baden-Württemberg"
+        },
+        {
+          "value": "801",
+          "label": "Bodensee-Oberschwaben"
+        },
+        {
+          "value": "802",
+          "label": "Donau-Iller (BW)"
+        },
+        {
+          "value": "803",
+          "label": "Franken"
+        },
+        {
+          "value": "804",
+          "label": "Hochrhein-Bodensee"
+        },
+        {
+          "value": "805",
+          "label": "Mittlerer Oberrhein"
+        },
+        {
+          "value": "806",
+          "label": "Neckar-Alb"
+        },
+        {
+          "value": "807",
+          "label": "Nordschwarzwald"
+        },
+        {
+          "value": "808",
+          "label": "Ostwürttemberg"
+        },
+        {
+          "value": "809",
+          "label": "Schwarzwald-Baar-Heuberg"
+        },
+        {
+          "value": "810",
+          "label": "Stuttgart"
+        },
+        {
+          "value": "811",
+          "label": "Südlicher Oberrhein"
+        },
+        {
+          "value": "812",
+          "label": "Unterer Neckar"
+        },
+        {
+          "value": "9",
+          "label": "Bayern"
+        },
+        {
+          "value": "901",
+          "label": "Allgäu"
+        },
+        {
+          "value": "902",
+          "label": "Augsburg"
+        },
+        {
+          "value": "903",
+          "label": "Bayerischer Untermain"
+        },
+        {
+          "value": "904",
+          "label": "Donau-Iller (BY)"
+        },
+        {
+          "value": "905",
+          "label": "Donau-Wald"
+        },
+        {
+          "value": "906",
+          "label": "Industrieregion Mittelfranken"
+        },
+        {
+          "value": "907",
+          "label": "Ingolstadt"
+        },
+        {
+          "value": "908",
+          "label": "Landshut"
+        },
+        {
+          "value": "909",
+          "label": "Main-Rhön"
+        },
+        {
+          "value": "910",
+          "label": "München"
+        },
+        {
+          "value": "911",
+          "label": "Oberfranken-Ost"
+        },
+        {
+          "value": "912",
+          "label": "Oberfranken-West"
+        },
+        {
+          "value": "913",
+          "label": "Oberland"
+        },
+        {
+          "value": "914",
+          "label": "Oberpfalz-Nord"
+        },
+        {
+          "value": "915",
+          "label": "Regensburg"
+        },
+        {
+          "value": "916",
+          "label": "Südostoberbayern"
+        },
+        {
+          "value": "917",
+          "label": "Westmittelfranken"
+        },
+        {
+          "value": "918",
+          "label": "Würzburg"
+        },
+        {
+          "value": "10",
+          "label": "Saarland"
+        },
+        {
+          "value": "1001",
+          "label": "Saar"
+        },
+        {
+          "value": "11",
+          "label": "Berlin"
+        },
+        {
+          "value": "1101",
+          "label": "Berlin"
+        },
+        {
+          "value": "12",
+          "label": "Brandenburg"
+        },
+        {
+          "value": "1201",
+          "label": "Havelland-Fläming"
+        },
+        {
+          "value": "1202",
+          "label": "Lausitz-Spreewald"
+        },
+        {
+          "value": "1203",
+          "label": "Oderland-Spree"
+        },
+        {
+          "value": "1204",
+          "label": "Prignitz-Oberhavel"
+        },
+        {
+          "value": "1205",
+          "label": "Uckermark-Barnim"
+        },
+        {
+          "value": "13",
+          "label": "Mecklenburg-Vorpommern"
+        },
+        {
+          "value": "1301",
+          "label": "Mecklenburgische Seenplatte"
+        },
+        {
+          "value": "1302",
+          "label": "Mittleres Mecklenburg/Rostock"
+        },
+        {
+          "value": "1303",
+          "label": "Vorpommern"
+        },
+        {
+          "value": "1304",
+          "label": "Westmecklenburg"
+        },
+        {
+          "value": "14",
+          "label": "Sachsen"
+        },
+        {
+          "value": "1401",
+          "label": "Oberes Elbtal/Osterzgebirge"
+        },
+        {
+          "value": "1402",
+          "label": "Oberlausitz-Niederschlesien"
+        },
+        {
+          "value": "1403",
+          "label": "Südsachsen"
+        },
+        {
+          "value": "1404",
+          "label": "Westsachsen"
+        },
+        {
+          "value": "15",
+          "label": "Sachsen-Anhalt"
+        },
+        {
+          "value": "1501",
+          "label": "Altmark"
+        },
+        {
+          "value": "1502",
+          "label": "Anhalt-Bitterfeld-Wittenberg"
+        },
+        {
+          "value": "1503",
+          "label": "Halle/S."
+        },
+        {
+          "value": "1504",
+          "label": "Magdeburg"
+        },
+        {
+          "value": "16",
+          "label": "Thüringen"
+        },
+        {
+          "value": "1601",
+          "label": "Mittelthüringen"
+        },
+        {
+          "value": "1602",
+          "label": "Nordthüringen"
+        },
+        {
+          "value": "1603",
+          "label": "Ostthüringen"
+        },
+        {
+          "value": "1604",
+          "label": "Südthüringen"
+        }
+      ]
     },
     {
       "name": "Region",
       "type": "string",
-      "description": "Name der Region, für die der [Wert] berechnet wurde."
+      "description": "Name der Region, für die der [Wert] berechnet wurde.",
+      "constraints": {
+        "enum": [
+          "Deutschland",
+          "Schleswig-Holstein",
+          "Schleswig-Holstein Mitte",
+          "Schleswig-Holstein Nord",
+          "Schleswig-Holstein Ost",
+          "Schleswig-Holstein Süd",
+          "Schleswig-Holstein Süd-West",
+          "Hamburg",
+          "Hamburg",
+          "Niedersachsen",
+          "Braunschweig",
+          "Bremen-Umland",
+          "Bremerhaven",
+          "Emsland",
+          "Göttingen",
+          "Hamburg-Umland-Süd",
+          "Hannover",
+          "Hildesheim",
+          "Lüneburg",
+          "Oldenburg",
+          "Osnabrück",
+          "Ost-Friesland",
+          "Südheide",
+          "Bremen",
+          "Bremen",
+          "Nordrhein-Westfalen",
+          "Aachen",
+          "Arnsberg",
+          "Bielefeld",
+          "Bochum/Hagen",
+          "Bonn",
+          "Dortmund",
+          "Duisburg/Essen",
+          "Düsseldorf",
+          "Emscher-Lippe",
+          "Köln",
+          "Münster",
+          "Paderborn",
+          "Siegen",
+          "Hessen",
+          "Mittelhessen",
+          "Nordhessen",
+          "Osthessen",
+          "Rhein-Main",
+          "Starkenburg",
+          "Rheinland-Pfalz",
+          "Mittelrhein-Westerwald",
+          "Rheinhessen-Nahe",
+          "Rheinpfalz",
+          "Trier",
+          "Westpfalz",
+          "Baden-Württemberg",
+          "Bodensee-Oberschwaben",
+          "Donau-Iller (BW)",
+          "Franken",
+          "Hochrhein-Bodensee",
+          "Mittlerer Oberrhein",
+          "Neckar-Alb",
+          "Nordschwarzwald",
+          "Ostwürttemberg",
+          "Schwarzwald-Baar-Heuberg",
+          "Stuttgart",
+          "Südlicher Oberrhein",
+          "Unterer Neckar",
+          "Bayern",
+          "Allgäu",
+          "Augsburg",
+          "Bayerischer Untermain",
+          "Donau-Iller (BY)",
+          "Donau-Wald",
+          "Industrieregion Mittelfranken",
+          "Ingolstadt",
+          "Landshut",
+          "Main-Rhön",
+          "München",
+          "Oberfranken-Ost",
+          "Oberfranken-West",
+          "Oberland",
+          "Oberpfalz-Nord",
+          "Regensburg",
+          "Südostoberbayern",
+          "Westmittelfranken",
+          "Würzburg",
+          "Saarland",
+          "Saar",
+          "Berlin",
+          "Berlin",
+          "Brandenburg",
+          "Havelland-Fläming",
+          "Lausitz-Spreewald",
+          "Oderland-Spree",
+          "Prignitz-Oberhavel",
+          "Uckermark-Barnim",
+          "Mecklenburg-Vorpommern",
+          "Mecklenburgische Seenplatte",
+          "Mittleres Mecklenburg/Rostock",
+          "Vorpommern",
+          "Westmecklenburg",
+          "Sachsen",
+          "Oberes Elbtal/Osterzgebirge",
+          "Oberlausitz-Niederschlesien",
+          "Südsachsen",
+          "Westsachsen",
+          "Sachsen-Anhalt",
+          "Altmark",
+          "Anhalt-Bitterfeld-Wittenberg",
+          "Halle/S.",
+          "Magdeburg",
+          "Thüringen",
+          "Mittelthüringen",
+          "Nordthüringen",
+          "Ostthüringen",
+          "Südthüringen"
+        ]
+      }
     },
     {
       "name": "Regionsebene",
       "type": "string",
       "description": "Bezeichnung der hierarchischen Ebene, in die die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.",
       "constraints": {
-        "enum": [
-          "Land",
-          "Bundesland",
-          "Raumordnungsregion"
-        ]
+        "enum": ["Land", "Bundesland", "Raumordnungsregion"]
       }
     },
     {
@@ -69,28 +1527,50 @@
       "type": "string",
       "description": "Geschlecht (biologisch), für das der [Wert] berechnet wurde.",
       "constraints": {
-        "enum": [
-          "männlich",
-          "weiblich",
-          "Gesamt"
-        ]
+        "enum": ["männlich", "weiblich", "Gesamt"]
       }
     },
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Bezeichnung der Altersgruppe, für die der [Wert] berechnet wurde.<br><br>Standardmäßig werden die Ergebnisse in 5-Jahres-Altersgruppen bis 95+, Gesamt und Altersstandardisiert angegeben. Daneben stehen für YLL zusätzliche Altersgruppen zur Verfügung: <br>`> 1`, `1 - 4`, `95 - 99` und `100 +`<br><br>`Altersstandardisiert` wurde nach der europäischen Standardbevölkerung 2013."
+      "description": "Bezeichnung der Altersgruppe, für die der [Wert] berechnet wurde.<br><br>Standardmäßig werden die Ergebnisse in 5-Jahres-Altersgruppen bis 95+, Gesamt und Altersstandardisiert angegeben. Daneben stehen für YLL zusätzliche Altersgruppen zur Verfügung: <br>`> 1`, `1 - 4`, `95 - 99` und `100 +`<br><br>`Altersstandardisiert` wurde nach der europäischen Standardbevölkerung 2013.",
+      "constraints": {
+        "enum": [
+          "1 - 4",
+          "10 - 14",
+          "100 +",
+          "15 - 19",
+          "20 - 24",
+          "25 - 29",
+          "30 - 34",
+          "35 - 39",
+          "40 - 44",
+          "45 - 49",
+          "5 - 9",
+          "50 - 54",
+          "55 - 59",
+          "60 - 64",
+          "65 - 69",
+          "70 - 74",
+          "75 - 79",
+          "80 - 84",
+          "85 - 89",
+          "90 - 94",
+          "95 +",
+          "95 - 99",
+          "< 1",
+          "< 5",
+          "Altersstandardisiert",
+          "Gesamt"
+        ]
+      }
     },
     {
       "name": "Einheit",
       "type": "string",
       "description": "Bezeichnung der Einheit, in der der [Wert] ausgegeben wird.<br><br>`Absolut`: [Wert] als absoluter Zahlenwert<br><br>`Prozent`: Ableitung des Absolutwertes als Anteil in Prozent (%) bezogen auf die Krankheitslast `Aller Ursachen` (Ursache_id=1000) je Region, Altersgruppe und Geschlecht.<br><br>`Rate`: Ableitung des Absolutwertes als Rate pro 100.000 Einwohner.",
       "constraints": {
-        "enum": [
-          "Absolut",
-          "Prozent",
-          "Rate"
-        ]
+        "enum": ["Absolut", "Prozent", "Rate"]
       }
     },
     {
