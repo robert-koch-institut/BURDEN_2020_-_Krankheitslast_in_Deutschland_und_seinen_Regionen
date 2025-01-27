@@ -13,7 +13,7 @@
     {
       "name": "Indikator",
       "type": "string",
-      "description": "Gibt die Krankheitslastkomponente an, für die der [Wert] berechnet wurde. [[Datengrundlagen und Methoden]](#Datengrundlagen-und-Methoden)",
+      "description": "Gibt die Krankheitslastkomponente an, für die der [Wert] berechnet wurde (siehe [Datengrundlagen und Methoden](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen#Datengrundlagen-und-Methoden))",
       "constraints": {
         "enum": ["YLL", "YLD", "DALY"]
       }
@@ -739,7 +739,7 @@
     {
       "name": "Ursache",
       "type": "string",
-      "description": "Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde.",
+      "description": "Bezeichnung der Krankheitslastursache, für die der [Wert] berechnet wurde (siehe [Keytable_Ursache.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Ursache.csv)).",
       "constraints": {
         "enum": [
           "Alle Ursachen",
@@ -1395,7 +1395,7 @@
     {
       "name": "Region",
       "type": "string",
-      "description": "Name der Region, für die der [Wert] berechnet wurde.",
+      "description": "Name der Region, für die der [Wert] berechnet wurde (siehe [Keytable_Region.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Region.csv)).",
       "constraints": {
         "enum": [
           "Deutschland",
