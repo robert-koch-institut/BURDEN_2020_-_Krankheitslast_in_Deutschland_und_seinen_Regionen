@@ -44,7 +44,7 @@ Heike Gruhl (umweltbezogene Risikoanalysen), Dr. Dietrich Plaß (Leitung UBA)
 **Wissenschaftliches Institut der AOK | WIdO**  
 Dr. Jan Breitkreuz (Sekundärdatenanalysen), Dr. Katrin Schüssel (Sekundärdatenanalysen), Gabriela Brückner (Sekundärdatenanalysen), Helmut Schröder (Projektleitung WIdO)
 
-Inhaltliche Fragen bezüglich der Berechnung der Indikatoren (Aufbereitung der Datenquellen, verwendete Methoden, etc.) sowie zur Qualitätssicherung der Ergebnisse oder Feedback zur Visualisierung der Ergebnisdaten auf der [Website](https://www.daly.rki.de/) können direkt an das BURDEN 2020-Team am RKI unter burden2020@rki.de gerichtet werden.  
+Inhaltliche Fragen bezüglich der Berechnung der Indikatoren (Aufbereitung der Datenquellen, verwendete Methoden, etc.) sowie zur Qualitätssicherung der Ergebnisse oder Feedback zur Visualisierung der Ergebnisdaten auf der [Website](https://www.daly.rki.de/) können direkt an das BURDEN 2020-Team am RKI unter [daly@rki.de](mailto:daly@rki.de) gerichtet werden.  
 
 Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
  
@@ -63,15 +63,11 @@ Das Akronym YLL steht für "years of life lost" und repräsentiert die Mortalit�
 
 #### Datengrundlagen  
 
-Grundlage waren die Todesursachenstatistik 2017 und Daten zur durchschnittlichen Lebenserwartung je vollendetem Alter. 
+Grundlage zur Berechnung des Krankheitslastindikators YLL waren Daten des Statistischen Bundesamtes (Destatis), darunter die Todesursachenstatistik 2017 und Daten aus Sterbetafeln zur durchschnittlichen Lebenserwartung: 
 
-Todesursachenstatistik:
+> Todesursachenstatistik 2017. [DOI: 10.21242/23211.2017.00.00.1.1.0](http://doi.org/10.21242/23211.2017.00.00.1.1.0)
 
-> Statistisches Bundesamt (2017): Todesursachenstatistik. [DOI: 10.21242/23211.2017.00.00.1.1.0](http://doi.org/10.21242/23211.2017.00.00.1.1.0)
-
-Durchschnittliche Lebenserwartung:	
-
-> Statistisches Bundesamt: Sterbetafeln 2016/2018, nach Bundesländern, Durchschnittliche Lebenserwartung (Periodensterbetafel). [www.genesis.destatis.de/genesis/online](https://www-genesis.destatis.de/genesis/online) 
+> Sterbetafel. Ergebnisse aus der laufenden Berechnung von Periodensterbetafeln für Deutschland und die Bundesländer. Wiesbaden. [2016/18. 2019](https://www.statistischebibliothek.de/mir/receive/DEHeft_mods_00131504). Durchschnittliche Lebenserwartung über [GENESIS-Online](https://www-genesis.destatis.de/datenbank/online/url/56262e56)
 
 
 #### Methodik und Berechnung  
@@ -83,8 +79,8 @@ Ergebnis- und Methodenpublikation:
 > Wengler et al. 2021: „Years of Life Lost to Death - A comprehensive analysis of mortality in Germany conducted as part of the BURDEN 2020 project“ [DOI: 10.3238/arztebl.m2021.0148](https://doi.org/10.3238/arztebl.m2021.0148)  
 
 Zuordnung der ICD-10-Codes zu den mortalitätsspezifischen Krankheitslastursachen:  
-> Johnson et al. Public health utility of cause of death data: applying empirical algorithms to improve data quality. BMC Med Inform Decis Mak 21, 175 (2021). [DOI: s12911-021-01501-1](https://doi.org/s12911-021-01501-1), Additional file 1, Appendix Figure 3
-
+> Johnson et al. Public health utility of cause of death data: applying empirical algorithms to improve data quality. BMC Med Inform Decis Mak 21, 175 (2021). [DOI: 10.1186/s12911-021-01501-1](https://doi.org/10.1186/s12911-021-01501-1).
+s. Additional file 1, Appendix, Figure 3
 
 Diagnose und Umverteilung nichtinformativer Todesursachen:  
 
@@ -103,11 +99,14 @@ Das Akronym YLD steht für "years lived with disability" und repräsentiert die 
 
 #### Datengrundlagen  
 
-Grundlage sind Primär- und Sekundärdatenquellen, vor allem alters-, geschlechts- und zumeist morbiditätsadjustierte Krankenkassenroutinedaten der AOK-Versicherten. Zudem wurden Befragungsdaten zu Schmerz- und Suchterkrankungen, die Straßenverkehrsunfallstatistik sowie Vorarbeiten der GBD-Studie verwendet.  
+Grundlage zur Berechnung des Krankheitslastindikators YLD waren verschiedene Primär- und Sekundärdatenquellen, darunter alters-, geschlechts- und morbiditätsadjustierte Krankenkassenroutinedaten der AOK-Versicherten. Diese wurden vom Wissenschaftlichen Institut der AOK im Rahmen des Projektes generiert und bereitgestellt:  
 
-Siehe Tabelle 3 Datengrundlage und Verfahren (Morbiditätskomponente) in:
+> Wissenschaftliches Institut der AOK (WIdO). (2024). Datenrepositorium Krankheitslage-Deutschland.de: WIdO-Ergebnisse für die Krankheitslastberechnung im Projekt BURDEN 2020 (1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14500672
 
-> Porst et al. 2022: „Die Krankheitslast in Deutschland und seinen Regionen - Ergebnisse zu den disability-adjusted life years (DALY) aus der Studie BURDEN 2020“. [DOI: 10.3238/arztebl.m2022.0314](https://doi.org/10.3238/arztebl.m2022.0314) 
+Zudem wurden Befragungsdaten zu Schmerz- und Suchterkrankungen, die Routinedaten der amtlichen Straßenverkehrsunfallstatistik, sowie Vorarbeiten der GBD-Studie verwendet. Eine vollständige Liste der verwendeten Datenquellen kann folgender BURDEN 2020 Projektpublikation entnommen werden:
+
+> Porst et al. 2022: „Die Krankheitslast in Deutschland und seinen Regionen - Ergebnisse zu den disability-adjusted life years (DALY) aus der Studie BURDEN 2020“. [DOI: 10.3238/arztebl.m2022.0314](https://doi.org/10.3238/arztebl.m2022.0314)
+s. Anhang: eTabelle 3 - Datengrundlage und Verfahren (Morbiditätskomponente)
 
 
 ####  Methodik und Berechnung
@@ -116,15 +115,13 @@ Lebensjahre in gesundheitlicher Einschränkung wurden durch (i)  die Häufigkeit
 
 > Porst et al. 2022: „Die Krankheitslast in Deutschland und seinen Regionen - Ergebnisse zu den disability-adjusted life years (DALY) aus der Studie BURDEN 2020“. [DOI: 10.3238/arztebl.m2022.0314](https://doi.org/10.3238/arztebl.m2022.0314)
 
-> Porst et al. 2022: Methodenbericht zur Quantifizierung der Years lived with disability (YLD) im Projekt BURDEN 2020 – Genese von Krankheitshäufigkeiten, Schweregraden, Dauern und Disability weights sowie Sensitivitätsanalysen [DOI: 10.25646/10022 ](https://doi.org/10.25646/10022)
-
-> Breitkreuz et al. 2021: „Methodik zur Bestimmung von Prävalenzen und Schweregraden mit Routinedaten im Projekt BURDEN 2020 - Falldefinitionen, Schweregrade, Prävalenzkonzept“, Berlin: Wissenschaftliches Institut der AOK (WIdO). [Link](https://www.krankheitslage-deutschland.de/dokumente/methodendokumentation.pdf)
+> Porst et al. 2023: Methodenbericht zur Quantifizierung der Krankheitslastindikatoren im Projekt BURDEN 2020 – Krankheitshäufigkeiten, Schweregrade, Dauern, Disability weights sowie Sensitivitätsanalysen. Robert Koch-Institut, Berlin. [DOI: 10.25646/10022.2](https://doi.org/10.25646/10022.2) (überarbeitete Fassung)
 
 Weitere Literatur:
 
 > Breitkreuz, J., Brückner, G., Burgard, J.P. *et al.* Schätzung kleinräumiger Krankheitshäufigkeiten für die deutsche Bevölkerung anhand von Routinedaten am Beispiel von Typ-2-Diabetes. *AStA Wirtsch Sozialstat Arch* 13, 35–72 (2019). [DOI: 10.1007/s11943-019-00241-z](https://doi.org/10.1007/s11943-019-00241-z)
 
-> Breitkreuz et al. 2021: „Krankheitslastbestimmung mit Prävalenzen und Schweregraden auf Routinedatenbasis“ [Link](https://www.wido.de/fileadmin/Dateien/Dokumente/Publikationen_Produkte/GGW/2021/wido_ggw_012021_breitkreuz_et_al.pdf)
+> Breitkreuz et al. 2021: „Krankheitslastbestimmung mit Prävalenzen und Schweregraden auf Routinedatenbasis“. [GGW 21 (1): 24-34](https://www.wido.de/fileadmin/Dateien/Dokumente/Publikationen_Produkte/GGW/2021/wido_ggw_012021_breitkreuz_et_al.pdf)
 
 > Porst M, Wengler A, Leddin J, et al. 2020: „Migräne und Spannungskopfschmerz in Deutschland. Prävalenz und Erkrankungsschwere im Rahmen der Krankheitslast-Studie BURDEN 2020“ [DOI: 10.25646/6988.2](http://doi.org/10.25646/6988.2)
 
