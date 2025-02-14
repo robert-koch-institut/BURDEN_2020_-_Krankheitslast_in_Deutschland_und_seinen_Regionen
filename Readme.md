@@ -231,10 +231,10 @@ Die Schlüsseltabelle Krankheitslastursache enthält die in der folgenden Tabell
 
 |Name|Typ|Ausprägung|Beschreibung|
 | - | - | - | - |
-|Ursache_id|Num|`>0`|Eindeutige Schlüsselnummer der [Ursache].|
-|Ursache|Char|[Keytable_Ursache.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Ursache.csv)|Bezeichnung der die [Ursache_id] zugeordneten Krankheitslastursache.  |
-|Ursachenebene|Num|`0`, `1`, `2`, `3`,`4`|Nummer als Bezeichnung der hierarchischen Ebene (Level), in der die [Ursache] eingeordnet ist.<br>Dabei `0` = höchste Ebene.|
-|Ursache_id_Stamm|Num|`>0`|[Ursache_id] der hierarchisch übergeordneten [Ursache] auf der nächst-höheren [Ursachenebene].|
+|Ursache_id|integer|`>0`|Eindeutige Schlüsselnummer der [Ursache].|
+|Ursache|string|[Keytable_Ursache.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Ursache.csv)|Bezeichnung der die [Ursache_id] zugeordneten Krankheitslastursache.  |
+|Ursachenebene|integer|`0`, `1`, `2`, `3`, `4`|Nummer als Bezeichnung der hierarchischen Ebene (Level), in der die [Ursache] eingeordnet ist.<br>Dabei `0` = höchste Ebene.|
+|Ursache_id_Stamm|integer|`>0`|[Ursache_id] der hierarchisch übergeordneten [Ursache] auf der nächst-höheren [Ursachenebene].|
 
 #### Schlüsseltabelle Region  
 Die räumliche Dimension ([Region]) ist in 3 Ebenen ([Regionsebene]) untergliedert, wobei `Land` die höchste Ebene darstellt. 
@@ -259,10 +259,10 @@ Die Schlüsseltabelle Region enthält die in der folgenden Tabelle abgebildeten 
 
 |Name|Typ|Ausprägung|Beschreibung|
 | - | - | - | - |
-|Region_id|Num|`>0`|Eindeutige Schlüsselnummer der [Region].|
-|Region|Char|[Keytable_Region.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Region.csv)|Name der Region.|
-|Regionsebene|Num|`Land`<br>`Bundesland`<br>`Raumordnungsregion`|Bezeichnung der hierarchischen Ebene, in der die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.|
-|Region_id_Stamm|Num|`>0`|[Region_id] der hierarchisch übergeordneten [Region] auf der nächsthöheren [Regionsebene].|
+|Region_id|integer|`≥0`|Eindeutige Schlüsselnummer der [Region].|
+|Region|string|[Keytable_Region.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Region.csv)|Name der Region.|
+|Regionsebene|string|`Land`<br>`Bundesland`<br>`Raumordnungsregion`|Bezeichnung der hierarchischen Ebene, in der die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.|
+|Region_id_Stamm|integer|`≥0`|[Region_id] der hierarchisch übergeordneten [Region] auf der nächsthöheren [Regionsebene].|
 
 
 ### Formatierung der Daten 
