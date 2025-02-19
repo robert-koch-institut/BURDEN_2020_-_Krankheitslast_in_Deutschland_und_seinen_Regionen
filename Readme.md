@@ -11,7 +11,7 @@ Nordufer 20
 Janko Leddin&sup1; (Datenmanagement) und [Michael Porst](https://orcid.org/0000-0002-3894-3122)&sup1; (Morbiditätsanalysen, Statistik)  
 
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Abteilung 2](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node.html)   
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Abteilung 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html)   
 
 
 --- 
@@ -34,7 +34,7 @@ Weiter Informationen zum Projekthintergrund findet sich in Rommel et al. 2018:
 
 ### Administrative und organisatorische Angaben  
 
-Das Projekt BUDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node.html) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
+Das Projekt BUDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
 
 Zu den Projektmitarbeitern der BURDEN 2020 study group zählten:
 
@@ -49,7 +49,7 @@ Dr. Jan Breitkreuz (Sekundärdatenanalysen), Dr. Katrin Schüssel (Sekundärdate
 
 Inhaltliche Fragen bezüglich der Berechnung der Indikatoren (Aufbereitung der Datenquellen, verwendete Methoden, etc.) sowie zur Qualitätssicherung der Ergebnisse oder Feedback zur Visualisierung der Ergebnisdaten auf der [Website](https://www.daly.rki.de/) können direkt an das BURDEN 2020-Team am RKI unter [daly@rki.de](mailto:daly@rki.de) gerichtet werden.  
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
  
 
 ### Förderung 
@@ -147,8 +147,8 @@ Summe aus YLL und YLD nach Alter, Geschlecht, Region und Krankheitslastursache.
 
 ### Limitationen des Datensatzes  
 
-Während der Ergebnisdatensatz zur Mortalitätskomponente (YLL) aufgrund seiner Genese für alle Krankheitslastursachen vollständig vorliegt (Wengler et al. 2021), wurde im Rahmen des Pilotprojekts für den Bereich Morbidität (YLD) - und damit für die gesamte Krankheitslast (DALY) - zunächst mit einer Vorauswahl an Krankheitslastursachen auf Ebene 3 gearbeitet (eTabelle 2, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126309)). Eine Berechnung der YLD und DALY auf höheren Ebenen einerseits, und die vollständige Abbildung des Klassifikationssystems der Ursachen andererseits, ist dadurch allerdings bislang noch nicht möglich. In der Bereitstellung der Daten zu den YLD und DALY wird deshalb auf die Ursachenebenen 0-2 verzichtet.  
-Weitere Limitationen ergeben sich für einzelne Krankheitslastursachen im Morbiditätsbereich sowohl hinsichtlich der räumlichen als auch der altersgruppenspezifischen Auflösung der Daten (eTabelle 3, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126311)).
+Während der Ergebnisdatensatz zur Mortalitätskomponente (YLL) aufgrund seiner Genese für alle Krankheitslastursachen vollständig vorliegt (Wengler et al. 2021), wurde im Rahmen des Pilotprojekts für den Bereich Morbidität (YLD) - und damit für die gesamte Krankheitslast (DALY) - zunächst mit einer Vorauswahl an Krankheitslastursachen auf Ebene 3 gearbeitet ([eTabelle 2, Porst et al. 2022](https://di.aerzteblatt.de/callback/image.asp?id=128391)). Eine Berechnung der YLD und DALY auf höheren Ebenen einerseits, und die vollständige Abbildung des Klassifikationssystems der Ursachen andererseits, ist dadurch allerdings bislang noch nicht möglich. In der Bereitstellung der Daten zu den YLD und DALY wird deshalb auf die Ursachenebenen 0-2 verzichtet.  
+Weitere Limitationen ergeben sich für einzelne Krankheitslastursachen im Morbiditätsbereich sowohl hinsichtlich der räumlichen als auch der altersgruppenspezifischen Auflösung der Daten ([eTabelle 3, Porst et al. 2022](https://di.aerzteblatt.de/callback/image.asp?id=128393)).
 
 
 
