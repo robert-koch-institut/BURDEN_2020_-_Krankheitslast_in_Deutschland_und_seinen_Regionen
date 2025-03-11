@@ -1,6 +1,6 @@
 {
   "title": "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen",
-  "description": "Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite <a href='http://www.daly.rki.de'>www.daly.rki.de</a> visualisiert.",
+  "description": "<p>Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite <a href=\"http://www.daly.rki.de\">www.daly.rki.de</a> visualisiert.</p>\n",
   "creators": [
     {
       "name": "Robert Koch-Institut",
@@ -78,7 +78,7 @@
     "Open Data",
     "RKI"
   ],
-  "publication_date": "2023-02-16",
+  "publication_date": "2025-03-11",
   "version": "2023-02-16",
   "upload_type": "dataset",
   "access_right": "open",
@@ -99,21 +99,19 @@
       "identifier": "info:ddc/22/eng//614.42"
     }
   ],
+  "dates": [
+    {
+      "start": "2023-02-16T00:00:00+01:00",
+      "end": "2023-02-16T00:00:00+01:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
+  ],
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
       "identifier": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
       "resource_type": "dataset"
-    },
-    {
-      "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Readme.md",
-      "resource_type": "publication-report"
-    },
-    {
-      "relation": "isDocumentedBy",
-      "identifier": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/[Dokumentation]_BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen.pdf",
-      "resource_type": "publication-report"
     },
     {
       "relation": "isDescribedBy",

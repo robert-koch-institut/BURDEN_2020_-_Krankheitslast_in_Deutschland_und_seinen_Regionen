@@ -1,0 +1,274 @@
+{
+  "title": "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen",
+  "description": "<p>Kennzahlen der Krankheitslast (engl. Burden of Disease) rücken für eine Vielzahl von Anwendungsmöglichkeiten, unter anderem im Öffentlichen Gesundheitsdienst des Bundes und der Länder, in Forschung, Entwicklung und anderen Bereichen des Gesundheitswesens, zunehmend in den Vordergrund. Sie erfassen den Gesundheitszustand einer Bevölkerung mit Hilfe einer konsistenten Metrik. Auch als Summenmaße der Bevölkerungsgesundheit bezeichnet, integrieren sie verschiedene Erkrankungen und Verletzungen als Ursachen für gesundheitliche Beeinträchtigungen (Morbidität) und Versterben (Mortalität). Standardisierte Berechnungsverfahren ermöglichen es, die Bedeutung einzelner Erkrankungen zu quantifizieren und zueinander ins Verhältnis zu setzen. Die Möglichkeit zur Stratifizierung nach Region, Alter oder Geschlecht lässt darüber hinaus eine differenzierte Betrachtung zu. Zu den Kennzahlen zählen der Indikator für die Krankheitslast insgesamt (DALY), welcher sich aus der Summe der beiden Einzelkomponenten zur Mortalität (YLL) und Morbidität (YLD) ergibt. Diese Indikatoren wurden im Rahmen des Projektes &quot;BURDEN 2020 – Die Krankheitslast in Deutschland und seinen Regionen&quot; auf nationaler sowie regionaler Ebene bestimmt. Mit der vorliegenden Datenveröffentlichung wird der Ergebnisdatensatz des Projekts zur freien Verfügung gestellt (Open Data). Sie enthält den Aufbau und Inhalt des Ergebnisdatensatzes, einen kurzen Überblick zum Projekt, den verwendeten Datenquellen und eingesetzten Verfahren zur Bestimmung der Einzelindikatoren. Die Ergebnisdaten wurden zur Veranschaulichung des Konzepts auf der Webseite <a href=\"http://www.daly.rki.de\">www.daly.rki.de</a> visualisiert.</p>\n",
+  "resource_type": {
+    "id": "dataset"
+  },
+  "publication_date": "2025-03-11",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Robert Koch-Institut"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Leddin",
+        "given_name": "Janko"
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "datamanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Porst",
+        "given_name": "Michael",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-3894-3122"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2025-03-11",
+  "dates": [
+    {
+      "date": "2023-02-16T00:00:00+01:00",
+      "type": {
+        "id": "created"
+      },
+      "description": "Date when the dataset was created"
+    }
+  ],
+  "languages": [
+    {
+      "id": "deu"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto"
+      },
+      "identifier": "https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen",
+      "resource_type": {
+        "id": "dataset"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Krankheitslast"
+    },
+    {
+      "subject": "Übertragbare Krankheiten"
+    },
+    {
+      "subject": "Nichtübertragbare Krankheiten"
+    },
+    {
+      "subject": "Wunden und Verletzungen"
+    },
+    {
+      "subject": "Atemwegsinfektionen"
+    },
+    {
+      "subject": "Krebserkrankung"
+    },
+    {
+      "subject": "Darmkrebs"
+    },
+    {
+      "subject": "Lungenkrebs"
+    },
+    {
+      "subject": "Brustkrebs"
+    },
+    {
+      "subject": "Prostatakrebs"
+    },
+    {
+      "subject": "Herz-Kreislauf-Krankheiten"
+    },
+    {
+      "subject": "Koronare Herzkrankheit"
+    },
+    {
+      "subject": "Schlaganfall"
+    },
+    {
+      "subject": "Hypertensive Herzkrankheit"
+    },
+    {
+      "subject": "Chronisch obstruktive Lungenerkrankung"
+    },
+    {
+      "subject": "Demenz"
+    },
+    {
+      "subject": "Kopfschmerz"
+    },
+    {
+      "subject": "Substanzbezogenen Störungen"
+    },
+    {
+      "subject": "Verkehrsunfälle"
+    },
+    {
+      "subject": "Depression"
+    },
+    {
+      "subject": "Diabetes mellitus"
+    },
+    {
+      "subject": "Angststörungen"
+    },
+    {
+      "subject": "Kreuzschmerzen"
+    },
+    {
+      "subject": "Nackenschmerz"
+    },
+    {
+      "subject": "Todesursache"
+    },
+    {
+      "subject": "years of life lost"
+    },
+    {
+      "subject": "years lived with disability"
+    },
+    {
+      "subject": "disability-adjusted life years"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "COPD"
+    },
+    {
+      "subject": "Burden of Disease"
+    },
+    {
+      "subject": "Communicable Diseases"
+    },
+    {
+      "subject": "Noncommunicable Diseases"
+    },
+    {
+      "subject": "Wounds and Injuries"
+    },
+    {
+      "subject": "Respiratory Tract Infections"
+    },
+    {
+      "subject": "Cancer"
+    },
+    {
+      "subject": "Intestinal Neoplasms"
+    },
+    {
+      "subject": "Lung Cancer"
+    },
+    {
+      "subject": "Breast Tumor"
+    },
+    {
+      "subject": "Prostate cancer"
+    },
+    {
+      "subject": "Cardiovascular Diseases"
+    },
+    {
+      "subject": "Coronary Heart Disease"
+    },
+    {
+      "subject": "Stroke"
+    },
+    {
+      "subject": "Hypertensive heart disease"
+    },
+    {
+      "subject": "Chronic Obstructive Pulmonary Disease"
+    },
+    {
+      "subject": "Dementia"
+    },
+    {
+      "subject": "Headache"
+    },
+    {
+      "subject": "Substance-Related Disorders"
+    },
+    {
+      "subject": "Traffic Accidents"
+    },
+    {
+      "subject": "Anxiety Disorders"
+    },
+    {
+      "subject": "Low Back Pain"
+    },
+    {
+      "subject": "Neck Pain"
+    },
+    {
+      "subject": "Cause of Death"
+    },
+    {
+      "subject": "Germany"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "RKI"
+    }
+  ],
+  "custom_fields": {
+    "legacy:communities": [
+      "robertkochinstitut"
+    ],
+    "legacy:subjects": [
+      {
+        "term": "Gesundheitsberichterstattung",
+        "identifier": "info:ddc/22/de//614.42"
+      },
+      {
+        "term": "Public health surveillance",
+        "identifier": "info:ddc/22/eng//614.42"
+      }
+    ]
+  }
+}
