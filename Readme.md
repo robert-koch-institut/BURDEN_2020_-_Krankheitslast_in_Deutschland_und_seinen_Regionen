@@ -17,7 +17,7 @@ Janko Leddin&sup1; (Datenmanagement) und [Michael Porst](https://orcid.org/0000-
 --- 
 **Zitieren**   
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2025). Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14750006](https://doi.org/10.5281/zenodo.14750006)
+Robert Koch-Institut. (2025). Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7646704](https://doi.org/10.5281/zenodo.7646704)
 <!-- CITATION_END -->
 
 ## Einleitung   
