@@ -1,20 +1,23 @@
 Datensatzdokumentation
 # Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen  
 
-[Robert Koch-Institut](https://rki.de) | RKI  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Nordufer 20  
 13353 Berlin  
 
+<br> 
 
-**Abteilung 2 | Epidemiologie und Gesundheitsmonitoring**  
-Janko Leddin (Datenmanagement)  
-[Michael Porst](https://orcid.org/0000-0002-3894-3122) (Morbiditätsanalysen, Statistik)  
+**Beitragende**   
+Janko Leddin&sup1; (Datenmanagement) und [Michael Porst](https://orcid.org/0000-0002-3894-3122)&sup1; (Morbiditätsanalysen, Statistik)  
+
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Abteilung 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html)   
+
 
 --- 
-**Zitieren**  
-
+**Zitieren**   
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2023). Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7646704](https://doi.org/10.5281/zenodo.7646704)
+Robert Koch-Institut. (2025). Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14750006](https://doi.org/10.5281/zenodo.14750006)
 <!-- CITATION_END -->
 
 ## Einleitung   
@@ -31,7 +34,7 @@ Weiter Informationen zum Projekthintergrund findet sich in Rommel et al. 2018:
 
 ### Administrative und organisatorische Angaben  
 
-Das Projekt BUDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt2/abt2_node.html) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
+Das Projekt BURDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
 
 Zu den Projektmitarbeitern der BURDEN 2020 study group zählten:
 
@@ -46,7 +49,7 @@ Dr. Jan Breitkreuz (Sekundärdatenanalysen), Dr. Katrin Schüssel (Sekundärdate
 
 Inhaltliche Fragen bezüglich der Berechnung der Indikatoren (Aufbereitung der Datenquellen, verwendete Methoden, etc.) sowie zur Qualitätssicherung der Ergebnisse oder Feedback zur Visualisierung der Ergebnisdaten auf der [Website](https://www.daly.rki.de/) können direkt an das BURDEN 2020-Team am RKI unter [daly@rki.de](mailto:daly@rki.de) gerichtet werden.  
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
  
 
 ### Förderung 
@@ -144,8 +147,8 @@ Summe aus YLL und YLD nach Alter, Geschlecht, Region und Krankheitslastursache.
 
 ### Limitationen des Datensatzes  
 
-Während der Ergebnisdatensatz zur Mortalitätskomponente (YLL) aufgrund seiner Genese für alle Krankheitslastursachen vollständig vorliegt (Wengler et al. 2021), wurde im Rahmen des Pilotprojekts für den Bereich Morbidität (YLD) - und damit für die gesamte Krankheitslast (DALY) - zunächst mit einer Vorauswahl an Krankheitslastursachen auf Ebene 3 gearbeitet (eTabelle 2, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126309)). Eine Berechnung der YLD und DALY auf höheren Ebenen einerseits, und die vollständige Abbildung des Klassifikationssystems der Ursachen andererseits, ist dadurch allerdings bislang noch nicht möglich. In der Bereitstellung der Daten zu den YLD und DALY wird deshalb auf die Ursachenebenen 0-2 verzichtet.  
-Weitere Limitationen ergeben sich für einzelne Krankheitslastursachen im Morbiditätsbereich sowohl hinsichtlich der räumlichen als auch der altersgruppenspezifischen Auflösung der Daten (eTabelle 3, [Porst et al. 2022](https://www.aerzteblatt.de/callback/image.asp?id=126311)).
+Während der Ergebnisdatensatz zur Mortalitätskomponente (YLL) aufgrund seiner Genese für alle Krankheitslastursachen vollständig vorliegt (Wengler et al. 2021), wurde im Rahmen des Pilotprojekts für den Bereich Morbidität (YLD) - und damit für die gesamte Krankheitslast (DALY) - zunächst mit einer Vorauswahl an Krankheitslastursachen auf Ebene 3 gearbeitet ([eTabelle 2, Porst et al. 2022](https://di.aerzteblatt.de/callback/image.asp?id=128391)). Eine Berechnung der YLD und DALY auf höheren Ebenen einerseits, und die vollständige Abbildung des Klassifikationssystems der Ursachen andererseits, ist dadurch allerdings bislang noch nicht möglich. In der Bereitstellung der Daten zu den YLD und DALY wird deshalb auf die Ursachenebenen 0-2 verzichtet.  
+Weitere Limitationen ergeben sich für einzelne Krankheitslastursachen im Morbiditätsbereich sowohl hinsichtlich der räumlichen als auch der altersgruppenspezifischen Auflösung der Daten ([eTabelle 3, Porst et al. 2022](https://di.aerzteblatt.de/callback/image.asp?id=128393)).
 
 
 
@@ -163,7 +166,7 @@ Der Datensatz enthält Daten zur Krankheitslast in Deutschland und seinen Region
 
 Die Ergebnisdatentabelle beinhaltet alle berechneten Datenpunkte des Projekts BURDEN 2020 in strukturierter Form. Ein Datenpunkt ist definiert als das Kreuzprodukt aller möglichen Ausprägungen der Variablen: Berichtsjahr, Indikator, Ursache, Region, Geschlecht, Altersgruppe und Einheit. Jede Zeile der Tabelle stellt den Wert im Kontext des Datenpunktes dar. Die Ergebnistabelle enthält keine Leerzeilen (Datenpunkte, die nicht berechnet werden konnten, sind nicht enthalten). Die BURDEN 2020 Ergebnisdaten beziehen sich ausschließlich auf das Berichtsjahr 2017. Weitere Limitationen sind dem entsprechenden Abschnitt dieser Dokumentation zu entnehmen.  
 
-> [BURDEN2020_Ergebnisdaten.csv](/BURDEN2020_Ergebnisdaten.csv)  
+> [BURDEN2020_Ergebnisdaten.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/BURDEN2020_Ergebnisdaten.csv)  
 
 Insgesamt enthält der Datensatz 2.519.913 berechnete Datenpunkte.  
 
@@ -201,13 +204,6 @@ Die Datei [BURDEN2020_Ergebnisdaten.csv](https://github.com/robert-koch-institut
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
-#### Formatierung 
-Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".
-
-- Zeichensatz: UTF-8
-- .csv Trennzeichen: Komma ","
-
-
 ### Schlüsseltabellen
 
 #### Schlüsseltabelle Krankheitslastursache  
@@ -227,7 +223,7 @@ Die umfangreichste Ebene ist Ebene 3, die detailreichste ist Ebene 4. Nicht jede
 
 Die Felder [Ursache] und [Ursachenebene] sind in der Ergebnistabelle bereits integriert. Eine separate Zuordungen zwischen [Ursache_id], [Ursache] und [Ursachenebene] befindet sich in der Schlüsseltabelle:
 
-> [Kontextmaterialien/Keytable_Ursache.csv](/Kontextmaterialien/Keytable_Ursache.csv)
+> [Kontextmaterialien/Keytable_Ursache.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Ursache.csv)
 
 **Variablen und Variablenausprägung**
 
@@ -235,10 +231,10 @@ Die Schlüsseltabelle Krankheitslastursache enthält die in der folgenden Tabell
 
 |Name|Typ|Ausprägung|Beschreibung|
 | - | - | - | - |
-|Ursache_id|Num|`>0`|Eindeutige Schlüsselnummer der [Ursache].|
-|Ursache|Char|[Keytable_Ursache.csv](/Kontextmaterialien/Keytable_Ursache.csv)|Bezeichnung der die [Ursache_id] zugeordneten Krankheitslastursache.  |
-|Ursachenebene|Num|`0`, `1`, `2`, `3`,`4`|Nummer als Bezeichnung der hierarchischen Ebene (Level), in der die [Ursache] eingeordnet ist.<br>Dabei `0` = höchste Ebene.|
-|Ursache_id_Stamm|Num|`>0`|[Ursache_id] der hierarchisch übergeordneten [Ursache] auf der nächst-höheren [Ursachenebene].|
+|Ursache_id|integer|`>0`|Eindeutige Schlüsselnummer der [Ursache].|
+|Ursache|string|[Keytable_Ursache.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Ursache.csv)|Bezeichnung der die [Ursache_id] zugeordneten Krankheitslastursache.  |
+|Ursachenebene|integer|`0`, `1`, `2`, `3`, `4`|Nummer als Bezeichnung der hierarchischen Ebene (Level), in der die [Ursache] eingeordnet ist.<br>Dabei `0` = höchste Ebene.|
+|Ursache_id_Stamm|integer|`>0`|[Ursache_id] der hierarchisch übergeordneten [Ursache] auf der nächst-höheren [Ursachenebene].|
 
 #### Schlüsseltabelle Region  
 Die räumliche Dimension ([Region]) ist in 3 Ebenen ([Regionsebene]) untergliedert, wobei `Land` die höchste Ebene darstellt. 
@@ -255,7 +251,7 @@ Die kleinräumigste Ebene ist `Raumordnungsregion`. Jede Region ist genau einer 
 
 Die Felder [Region] und [Regionsebene] sind in der Ergebnistabelle bereits integriert. Eine separate Zuordungen zwischen [Region_id], [Region] und [Regionsebene] befindet sich in der Schlüsseltabelle:
 
-> [Kontextmaterialien/Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv)
+> [Kontextmaterialien/Keytable_Region.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Region.csv)
 
 **Variablen und Variablenausprägung**
 
@@ -263,31 +259,57 @@ Die Schlüsseltabelle Region enthält die in der folgenden Tabelle abgebildeten 
 
 |Name|Typ|Ausprägung|Beschreibung|
 | - | - | - | - |
-|Region_id|Num|`>0`|Eindeutige Schlüsselnummer der [Region].|
-|Region|Char|[Keytable_Region.csv](/Kontextmaterialien/Keytable_Region.csv)|Name der Region.|
-|Regionsebene|Num|`Land`<br>`Bundesland`<br>`Raumordnungsregion`|Bezeichnung der hierarchischen Ebene, in der die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.|
-|Region_id_Stamm|Num|`>0`|[Region_id] der hierarchisch übergeordneten [Region] auf der nächsthöheren [Regionsebene].|
+|Region_id|integer|`≥0`|Eindeutige Schlüsselnummer der [Region].|
+|Region|string|[Keytable_Region.csv](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Kontextmaterialien/Keytable_Region.csv)|Name der Region.|
+|Regionsebene|string|`Land`<br>`Bundesland`<br>`Raumordnungsregion`|Bezeichnung der hierarchischen Ebene, in der die [Region] eingeordnet ist. Bsp.: `Land` = höchste Ebene.|
+|Region_id_Stamm|integer|`≥0`|[Region_id] der hierarchisch übergeordneten [Region] auf der nächsthöheren [Regionsebene].|
 
 
-### Metadaten
+### Formatierung der Daten 
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
-[Metadaten/](/Metadaten/)  
-Versionierung und DOI-Vergabe erfolgt über [Zenodo](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma “,”. Datumsangaben sind im ISO8601 Standard formatiert.
 
-> [Metadaten/zenodo.json](/Metadaten/zenodo.json)  
+* Zeichensatz: UTF-8
+* CSV-Trennzeichen: Komma “,”
 
-## Hinweise zur Nachnutzung der Daten
+### Metadaten  
 
-Offene Forschungsdaten des RKI werden auf GitHub.com und Zenodo.org bereitgestellt:
-* https://github.com/robert-koch-institut
-* https://zenodo.org/communities/robertkochinstitut
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-### Lizenz
+> [Metadaten/](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Metadaten/)    
 
-Der Datensatz “Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen” ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+ 
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/Metadaten/zenodo.json)  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE)- bzw. [LIZENZ](/LIZENZ)-Datei des Datensatzes. 
+In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
+
+```
+  "dates": [
+	{
+	  "start": "2023-09-11T15:00:21+02:00",
+	  "end": "2023-09-11T15:00:21+02:00",
+	  "type": "Created",
+	  "description": "Date when the Dataset was created"
+	}
+  ],
+```    
+
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
+
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](hhttps://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/BURDEN_2020_-_Krankheitslast_in_Deutschland_und_seinen_Regionen/blob/main/LIZENZ) Datei des Datensatzes.
+
 
 ## Referenzen
 
