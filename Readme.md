@@ -1,24 +1,48 @@
-Datensatzdokumentation
-# Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen  
+<!-- HEADER_START: {"lang": "de"} -->
 
-[**Robert Koch-Institut | RKI**](https://rki.de)  
-Nordufer 20  
-13353 Berlin  
+
+Dokumentation  
+# Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen
+
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](https://www.rki.de/)
 
 <br> 
 
 **Beitragende**   
-Janko Leddin&sup1; (Datenmanagement) und [Michael Porst](https://orcid.org/0000-0002-3894-3122)&sup1; (Morbiditätsanalysen, Statistik)  
+Janko Leddin&sup1;, & [Michael Porst](https://orcid.org/0000-0002-3894-3122)&sup1;
 
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Abteilung 2](https://www.rki.de/abt2)
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de) | [Abteilung 2](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html)   
+<br> 
 
-
---- 
-**Zitieren**   
-<!-- CITATION_START: {"citation_style": "apa"} -->
+**Zitieren**  
 Robert Koch-Institut. (2025). Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14750006](https://doi.org/10.5281/zenodo.14750006)
-<!-- CITATION_END -->
+
+<br>
+
+
+**Zusammenfassung**    
+Im "Ergebnisdatensatz BURDEN 2020 – Krankheitslast in Deutschland und seinen Regionen" werden die Ergebnisse der Krankheitslastberechnung (Burden of Disease) auf Basis deutscher Datenquellen bereitgestellt. Im Rahmen des vom Robert Koch-Institut geleiteten Pilotprojekts wurden die aus der Global Burden of Disease-Studie bekannten Indikatoren Years of Life Lost (YLL), Years Lived with Disability (YLD) und Disability-Adjusted Life Years (DALY) auf nationaler und regionaler Ebene in Deutschland berechnet. Hierzu wurden Mortalitätsdaten des Statistischen Bundesamts sowie Krankenkassenroutinedaten, amtliche Statistiken und Befragungsdaten verwendet. Der Datensatz ist aufgeschlüsselt nach Ursache, Region, Alter, Geschlecht und Einheit. Er ermöglicht eine differenzierte Bewertung der Public-Health-Relevanz von Krankheiten, unterstützt die Priorisierung gesundheitspolitischer Maßnahmen.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Einleitung](#einleitung)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Datengrundlagen und Methoden](#datengrundlagen-und-methoden)
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Referenzen](#referenzen)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
 
 ## Einleitung   
 
@@ -34,7 +58,7 @@ Weiter Informationen zum Projekthintergrund findet sich in Rommel et al. 2018:
 
 ### Administrative und organisatorische Angaben  
 
-Das Projekt BURDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-2/abt2-epidemiologie-und-gesundheitsmonitoring-node.html) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
+Das Projekt BURDEN 2020 wurde unter der Federführung der [Abteilung für Epidemiologie und Gesundheitsmonitoring (Abteilung 2)](https://www.rki.de/abt2) des Robert Koch-Instituts (RKI) im Verbund mit dem Umweltbundesamt (UBA) und dem Wissenschaftlichen Institut der AOK (WIdO) durchgeführt (BURDEN 2020 study group).  
 
 Zu den Projektmitarbeitern der BURDEN 2020 study group zählten:
 
@@ -49,7 +73,7 @@ Dr. Jan Breitkreuz (Sekundärdatenanalysen), Dr. Katrin Schüssel (Sekundärdate
 
 Inhaltliche Fragen bezüglich der Berechnung der Indikatoren (Aufbereitung der Datenquellen, verwendete Methoden, etc.) sowie zur Qualitätssicherung der Ergebnisse oder Feedback zur Visualisierung der Ergebnisdaten auf der [Website](https://www.daly.rki.de/) können direkt an das BURDEN 2020-Team am RKI unter [daly@rki.de](mailto:daly@rki.de) gerichtet werden.  
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).
  
 
 ### Förderung 
